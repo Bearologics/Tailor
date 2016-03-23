@@ -13,22 +13,38 @@ import Fuzi
 class SnapshotFetcher: NSObject {
     let downloadUri = "https://swift.org/download"
     
-    func getReleases(done: (releases: [Entry]?) -> ()) {
+    func getReleases(done: (releases: [Release]?) -> ()) {
         Alamofire.request(.GET, downloadUri)
         .responseString { response in
             guard let html = response.result.value else {
                 return done(releases: nil)
             }
             
-            let items = try? XMLDocument(string: html)
-                .xpath("//span[@class='release']/a[@title='Download']").map { element in
-                return Entry(
-                    title: element.stringValue,
-                    href: "https://swift.org\(element.attr("href")!)"
-                )
-            }
+            let document = try? XMLDocument(string: html)
+            let body = document?.xpath("//table[@id='latest-builds']/tbody")
             
-            done(releases: items)
+            let releases = body?.map { return self.release($0) }.flatMap { return $0 }
+
+            done(releases: releases)
         }
+    }
+    
+    func release(element: XMLElement) -> [Release] {
+        var releases = [Release]()
+        for (idx, el) in element.xpath(".//tr/td[@class='date']/time").enumerate() {
+            guard let a = element.xpath(".//tr/td[@class='download']/span[@class='release']/a")[idx] else {
+                continue
+            }
+            guard let href = a["href"] else {
+                continue
+            }
+            releases.append(
+                Release(
+                    title: "\(el.stringValue), \(a.stringValue)",
+                    href: href.hasPrefix("http") ? href : "https://swift.org" + href
+                )
+            )
+        }
+        return releases
     }
 }

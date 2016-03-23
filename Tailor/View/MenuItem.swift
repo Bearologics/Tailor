@@ -18,17 +18,32 @@ struct MenuItem {
     }
     
     static func disabledItem(title: String) -> NSMenuItem {
-        return item(title, enabled: false)
+        return item(nil, title: title, enabled: false)
         
     }
     
     static func enabledItem(title: String) -> NSMenuItem {
-        return item(title, enabled: true)
+        return item(nil, title: title, enabled: true)
     }
-        
-    static func item(title: String, enabled: Bool) -> NSMenuItem {
-        let item = NSMenuItem(title: title, action: "openDownloadUrl:", keyEquivalent: "")
+    
+    static func openUrlItem(target: AnyObject, title: String) -> NSMenuItem {
+        return item(target, title: title, enabled: true)
+    }
+    
+    static func item(target: AnyObject?, title: String, enabled: Bool) -> NSMenuItem {
+        let item = NSMenuItem()
+        item.target = target
+        if item.target != nil {
+            item.action = "openUrl:"
+        }
+        item.title = title
         item.enabled = enabled
+        return item
+    }
+    
+    static func closeItem(target: AnyObject) -> NSMenuItem {
+        let item = NSMenuItem(title: "Quit", action: "closeApp:", keyEquivalent: "")
+        item.target = target
         return item
     }
 }

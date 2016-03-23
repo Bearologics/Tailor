@@ -39,6 +39,7 @@ class StatusItemController: NSObject, NSMenuDelegate {
         menu.addItem(
             MenuItem.loadingItem()
         )
+        self.addCloseItems()
         fetcher.getReleases { entries in
             guard let i = entries else {
                 return self.showError()
@@ -46,24 +47,30 @@ class StatusItemController: NSObject, NSMenuDelegate {
             menu.removeAllItems()
             i.map { release in
                 return self.menuItem(release)
-                }.forEach { menu.addItem($0) }
+            }.forEach { menu.addItem($0) }
+            self.addCloseItems()
         }
     }
     
-    func menuItem(entry: Entry) -> NSMenuItem {
+    func addCloseItems() {
+        menu.addItem(NSMenuItem.separatorItem())
+        menu.addItem(MenuItem.closeItem(self))
+    }
+    
+    func menuItem(entry: Release) -> NSMenuItem {
         let item = NSMenuItem(title: entry.title, action: nil, keyEquivalent: "")
         let submenu = NSMenu()
-        submenu.delegate = self
-        let subitem = MenuItem.item(entry.href == nil ? "No link available 😳" : entry.href!, enabled: true)
-        subitem.target = self
-        subitem.action = "openUrl:"
-        submenu.addItem(subitem)
+        submenu.addItem(MenuItem.openUrlItem(self, title: entry.href))
         item.submenu = submenu
         return item
     }
     
     func openUrl(sender: NSMenuItem) {
         NSWorkspace.sharedWorkspace().openURL(NSURL(string: sender.title)!)
+    }
+    
+    func closeApp(sender: NSMenuItem) {
+        NSApplication.sharedApplication().terminate(sender)
     }
     
 }

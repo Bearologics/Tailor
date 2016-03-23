@@ -11,7 +11,6 @@
 		072038FA1CA28A850039D141 /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038F41CA28A850039D141 /* StatusItemController.swift */; };
 		072038FB1CA28A850039D141 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038F71CA28A850039D141 /* MenuItem.swift */; };
 		072038FC1CA28A850039D141 /* StatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038F81CA28A850039D141 /* StatusItem.swift */; };
-		072038FE1CA28A9C0039D141 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038FD1CA28A9C0039D141 /* Entry.swift */; };
 		072039001CA2929F0039D141 /* Release.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038FF1CA2929F0039D141 /* Release.swift */; };
 		1E7CD78E216AFDA7E6DC7B45 /* Pods_Tailor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9243F9C5B6D3F3FCDC1AB95 /* Pods_Tailor.framework */; };
 		EC65F0C31CA1E29A0065507A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC65F0C21CA1E29A0065507A /* AppDelegate.swift */; };
@@ -44,7 +43,6 @@
 		072038F41CA28A850039D141 /* StatusItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
 		072038F71CA28A850039D141 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		072038F81CA28A850039D141 /* StatusItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItem.swift; sourceTree = "<group>"; };
-		072038FD1CA28A9C0039D141 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		072038FF1CA2929F0039D141 /* Release.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Release.swift; sourceTree = "<group>"; };
 		D9243F9C5B6D3F3FCDC1AB95 /* Pods_Tailor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tailor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC65F0BF1CA1E29A0065507A /* Tailor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tailor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +97,6 @@
 		072038F51CA28A850039D141 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				072038FD1CA28A9C0039D141 /* Entry.swift */,
 				072038FF1CA2929F0039D141 /* Release.swift */,
 			);
 			path = Model;
@@ -366,7 +363,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072038FE1CA28A9C0039D141 /* Entry.swift in Sources */,
 				072038FA1CA28A850039D141 /* StatusItemController.swift in Sources */,
 				072038F91CA28A850039D141 /* SnapshotFetcher.swift in Sources */,
 				072038FB1CA28A850039D141 /* MenuItem.swift in Sources */,

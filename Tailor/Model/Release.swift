@@ -9,6 +9,6 @@
 import Foundation
 
 struct Release {
-    let date: String
-    let entries: [Entry]?
+    let title: String
+    let href: String
 }
