@@ -26,23 +26,23 @@ struct MenuItem {
         return item(nil, title: title, enabled: true)
     }
     
-    static func openUrlItem(target: AnyObject, title: String) -> NSMenuItem {
+    static func openUrlItem(target: StatusItemController, title: String) -> NSMenuItem {
         return item(target, title: title, enabled: true)
     }
     
-    static func item(target: AnyObject?, title: String, enabled: Bool) -> NSMenuItem {
+    static func item(target: StatusItemController?, title: String, enabled: Bool) -> NSMenuItem {
         let item = NSMenuItem()
-        item.target = target
-        if item.target != nil {
-            item.action = "openUrl:"
+        if let t = target {
+            item.target = target
+            item.action = #selector(t.openUrl(_:))
         }
         item.title = title
         item.enabled = enabled
         return item
     }
     
-    static func closeItem(target: AnyObject) -> NSMenuItem {
-        let item = NSMenuItem(title: "Quit", action: "closeApp:", keyEquivalent: "")
+    static func closeItem(target: StatusItemController) -> NSMenuItem {
+        let item = NSMenuItem(title: "Quit", action: #selector(target.closeApp(_:)), keyEquivalent: "")
         item.target = target
         return item
     }
