@@ -10,5 +10,5 @@ import Foundation
 
 struct Release {
     let title: String
-    let href: String
+    let hrefs: [String]
 }

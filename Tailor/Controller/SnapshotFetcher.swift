@@ -13,6 +13,11 @@ import Fuzi
 class SnapshotFetcher: NSObject {
     let downloadUri = "https://swift.org/download"
     
+    func uniq<S: SequenceType, E: Hashable where E==S.Generator.Element>(source: S) -> [E] {
+        var seen: [E:Bool] = [:]
+        return source.filter { seen.updateValue(true, forKey: $0) == nil }
+    }
+    
     func getReleases(done: (releases: [Release]?) -> ()) {
         Alamofire.request(.GET, downloadUri)
         .responseString { response in
@@ -31,17 +36,21 @@ class SnapshotFetcher: NSObject {
     
     func release(element: XMLElement) -> [Release] {
         var releases = [Release]()
-        for (idx, el) in element.xpath(".//tr/td[@class='date']/time").enumerate() {
-            guard let a = element.xpath(".//tr/td[@class='download']/span[@class='release']/a")[idx] else {
-                continue
+        let els = uniq(element.xpath(".//tr/td[@class='date']/time").flatMap { return $0.stringValue })
+        els.forEach { el in
+            let pth = element.xpath(".//tr/td[@class='download']/span[@class='release']/a")
+            var hrefs = [String]()
+            pth.forEach { href in
+                guard let href = href["href"] else {
+                    return
+                }
+                hrefs.append(href.hasPrefix("http") ? href : "https://swift.org" + href)
             }
-            guard let href = a["href"] else {
-                continue
-            }
+            
             releases.append(
                 Release(
-                    title: "\(el.stringValue), \(a.stringValue)",
-                    href: href.hasPrefix("http") ? href : "https://swift.org" + href
+                    title: el,
+                    hrefs: hrefs
                 )
             )
         }

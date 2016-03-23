@@ -60,7 +60,9 @@ class StatusItemController: NSObject, NSMenuDelegate {
     func menuItem(entry: Release) -> NSMenuItem {
         let item = NSMenuItem(title: entry.title, action: nil, keyEquivalent: "")
         let submenu = NSMenu()
-        submenu.addItem(MenuItem.openUrlItem(self, title: entry.href))
+        entry.hrefs.forEach { href in
+            submenu.addItem(MenuItem.openUrlItem(self, title: href))
+        }
         item.submenu = submenu
         return item
     }
