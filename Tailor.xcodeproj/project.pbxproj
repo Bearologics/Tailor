@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		072038F91CA28A850039D141 /* SnapshotFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038F31CA28A850039D141 /* SnapshotFetcher.swift */; };
+		072038FA1CA28A850039D141 /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038F41CA28A850039D141 /* StatusItemController.swift */; };
+		072038FB1CA28A850039D141 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038F71CA28A850039D141 /* MenuItem.swift */; };
+		072038FC1CA28A850039D141 /* StatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038F81CA28A850039D141 /* StatusItem.swift */; };
+		072038FE1CA28A9C0039D141 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038FD1CA28A9C0039D141 /* Entry.swift */; };
 		1E7CD78E216AFDA7E6DC7B45 /* Pods_Tailor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9243F9C5B6D3F3FCDC1AB95 /* Pods_Tailor.framework */; };
-		EC2EA81B1CA1E638006D21C1 /* StatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2EA81A1CA1E638006D21C1 /* StatusItem.swift */; };
-		EC2EA81D1CA1E70C006D21C1 /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2EA81C1CA1E70C006D21C1 /* StatusItemController.swift */; };
-		EC2EA81F1CA1E978006D21C1 /* SnapshotFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2EA81E1CA1E978006D21C1 /* SnapshotFetcher.swift */; };
-		EC2EA8211CA1EBC7006D21C1 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2EA8201CA1EBC7006D21C1 /* MenuItem.swift */; };
 		EC65F0C31CA1E29A0065507A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC65F0C21CA1E29A0065507A /* AppDelegate.swift */; };
 		EC65F0C71CA1E29A0065507A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC65F0C61CA1E29A0065507A /* Assets.xcassets */; };
 		EC65F0D51CA1E29B0065507A /* TailorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC65F0D41CA1E29B0065507A /* TailorTests.swift */; };
@@ -38,11 +39,12 @@
 
 /* Begin PBXFileReference section */
 		016F220F04EF57B8D700A62E /* Pods-Tailor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tailor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tailor/Pods-Tailor.debug.xcconfig"; sourceTree = "<group>"; };
+		072038F31CA28A850039D141 /* SnapshotFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotFetcher.swift; sourceTree = "<group>"; };
+		072038F41CA28A850039D141 /* StatusItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
+		072038F71CA28A850039D141 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		072038F81CA28A850039D141 /* StatusItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItem.swift; sourceTree = "<group>"; };
+		072038FD1CA28A9C0039D141 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		D9243F9C5B6D3F3FCDC1AB95 /* Pods_Tailor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tailor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC2EA81A1CA1E638006D21C1 /* StatusItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItem.swift; sourceTree = "<group>"; };
-		EC2EA81C1CA1E70C006D21C1 /* StatusItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
-		EC2EA81E1CA1E978006D21C1 /* SnapshotFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotFetcher.swift; sourceTree = "<group>"; };
-		EC2EA8201CA1EBC7006D21C1 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		EC65F0BF1CA1E29A0065507A /* Tailor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tailor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC65F0C21CA1E29A0065507A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC65F0C61CA1E29A0065507A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +85,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		072038F21CA28A850039D141 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				072038F31CA28A850039D141 /* SnapshotFetcher.swift */,
+				072038F41CA28A850039D141 /* StatusItemController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		072038F51CA28A850039D141 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				072038FD1CA28A9C0039D141 /* Entry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		072038F61CA28A850039D141 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				072038F71CA28A850039D141 /* MenuItem.swift */,
+				072038F81CA28A850039D141 /* StatusItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7C903E791B4CCC0BFBEE62B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,11 +153,10 @@
 		EC65F0C11CA1E29A0065507A /* Tailor */ = {
 			isa = PBXGroup;
 			children = (
+				072038F21CA28A850039D141 /* Controller */,
+				072038F51CA28A850039D141 /* Model */,
+				072038F61CA28A850039D141 /* View */,
 				EC65F0C21CA1E29A0065507A /* AppDelegate.swift */,
-				EC2EA81A1CA1E638006D21C1 /* StatusItem.swift */,
-				EC2EA8201CA1EBC7006D21C1 /* MenuItem.swift */,
-				EC2EA81C1CA1E70C006D21C1 /* StatusItemController.swift */,
-				EC2EA81E1CA1E978006D21C1 /* SnapshotFetcher.swift */,
 				EC65F0C61CA1E29A0065507A /* Assets.xcassets */,
 				EC65F0CB1CA1E29A0065507A /* Info.plist */,
 				EC734D781CA1E31300F32861 /* MainMenu.xib */,
@@ -336,11 +363,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC2EA8211CA1EBC7006D21C1 /* MenuItem.swift in Sources */,
-				EC2EA81B1CA1E638006D21C1 /* StatusItem.swift in Sources */,
-				EC2EA81F1CA1E978006D21C1 /* SnapshotFetcher.swift in Sources */,
+				072038FE1CA28A9C0039D141 /* Entry.swift in Sources */,
+				072038FA1CA28A850039D141 /* StatusItemController.swift in Sources */,
+				072038F91CA28A850039D141 /* SnapshotFetcher.swift in Sources */,
+				072038FB1CA28A850039D141 /* MenuItem.swift in Sources */,
+				072038FC1CA28A850039D141 /* StatusItem.swift in Sources */,
 				EC65F0C31CA1E29A0065507A /* AppDelegate.swift in Sources */,
-				EC2EA81D1CA1E70C006D21C1 /* StatusItemController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

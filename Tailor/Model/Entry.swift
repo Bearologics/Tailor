@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Entry {
+    let title: String
+    let enabled: Bool
+}

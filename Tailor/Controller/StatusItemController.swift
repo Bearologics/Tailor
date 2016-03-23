@@ -36,17 +36,14 @@ class StatusItemController: NSObject, NSMenuDelegate {
         menu.addItem(
             MenuItem.loadingItem()
         )
-        fetcher.getReleases { items in
-            guard let i = items else {
+        fetcher.getReleases { entries in
+            guard let i = entries else {
                 return self.showError()
             }
-            let menuItems = i.map { title in
-                return MenuItem.disabledItem(title)
-            }
             menu.removeAllItems()
-            for item in menuItems {
-                menu.addItem(item)
-            }
+            i.map { entry in
+                return MenuItem.item(entry.title, enabled: entry.enabled)
+            }.forEach { menu.addItem($0) }
         }
     }
 }
