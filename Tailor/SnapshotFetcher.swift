@@ -21,10 +21,10 @@ class SnapshotFetcher: NSObject {
             }
             
             let document = try? XMLDocument(string: html)
-            let items = document?.xpath("//table[@id='latest-builds']/tbody").map { element in
-                return element.stringValue
-            }
-        
+            let items = document?.xpath("//table[@id='latest-builds']/tbody/tr").first.map { element in
+                return element.xpath("//td[@class='date']/time")
+                }.flatMap { return $0.map { return $0.attr("title")! } }
+            
             done(items: items)
         }
     }
