@@ -27,7 +27,7 @@ struct MenuItem {
     }
         
     static func item(title: String, enabled: Bool) -> NSMenuItem {
-        let item = NSMenuItem(title: title, action: nil, keyEquivalent: "")
+        let item = NSMenuItem(title: title, action: "openDownloadUrl:", keyEquivalent: "")
         item.enabled = enabled
         return item
     }

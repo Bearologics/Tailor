@@ -13,19 +13,22 @@ import Fuzi
 class SnapshotFetcher: NSObject {
     let downloadUri = "https://swift.org/download"
     
-    func getReleases(done: (entries: [Entry]?) -> ()) {
+    func getReleases(done: (releases: [Entry]?) -> ()) {
         Alamofire.request(.GET, downloadUri)
         .responseString { response in
             guard let html = response.result.value else {
-                return done(entries: nil)
+                return done(releases: nil)
             }
             
-            let document = try? XMLDocument(string: html)
-            let items = document?.xpath("//table[@id='latest-builds']/tbody/tr").first.map { element in
-                return element.xpath("//td[@class='date']/time")
-            }.flatMap { return $0.map { return $0.attr("title") } }
-
-            done(entries: items?.map { let o = ($0 != nil); return Entry(title: o ? $0! : "", enabled: o ? true : false) })
+            let items = try? XMLDocument(string: html)
+                .xpath("//span[@class='release']/a[@title='Download']").map { element in
+                return Entry(
+                    title: element.stringValue,
+                    href: "https://swift.org\(element.attr("href")!)"
+                )
+            }
+            
+            done(releases: items)
         }
     }
 }

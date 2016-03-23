@@ -32,6 +32,9 @@ class StatusItemController: NSObject, NSMenuDelegate {
     }
     
     func menuWillOpen(menu: NSMenu) {
+        if menu != self.menu {
+            return
+        }
         menu.removeAllItems()
         menu.addItem(
             MenuItem.loadingItem()
@@ -41,9 +44,26 @@ class StatusItemController: NSObject, NSMenuDelegate {
                 return self.showError()
             }
             menu.removeAllItems()
-            i.map { entry in
-                return MenuItem.item(entry.title, enabled: entry.enabled)
-            }.forEach { menu.addItem($0) }
+            i.map { release in
+                return self.menuItem(release)
+                }.forEach { menu.addItem($0) }
         }
     }
+    
+    func menuItem(entry: Entry) -> NSMenuItem {
+        let item = NSMenuItem(title: entry.title, action: nil, keyEquivalent: "")
+        let submenu = NSMenu()
+        submenu.delegate = self
+        let subitem = MenuItem.item(entry.href == nil ? "No link available 😳" : entry.href!, enabled: true)
+        subitem.target = self
+        subitem.action = "openUrl:"
+        submenu.addItem(subitem)
+        item.submenu = submenu
+        return item
+    }
+    
+    func openUrl(sender: NSMenuItem) {
+        NSWorkspace.sharedWorkspace().openURL(NSURL(string: sender.title)!)
+    }
+    
 }

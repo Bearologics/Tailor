@@ -1,5 +1,5 @@
 //
-//  Entry.swift
+//  Release.swift
 //  Tailor
 //
 //  Created by Marcus Kida on 23/03/2016.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Entry {
-    let title: String
-    let href: String?
+struct Release {
+    let date: String
+    let entries: [Entry]?
 }
