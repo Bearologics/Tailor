@@ -190,6 +190,7 @@
 			buildConfigurationList = EC65F0E41CA1E29B0065507A /* Build configuration list for PBXNativeTarget "Tailor" */;
 			buildPhases = (
 				CD46CBBE14D364421884C573 /* Check Pods Manifest.lock */,
+				07EB194A1CA6055300233679 /* Increase Build No. */,
 				EC65F0BB1CA1E29A0065507A /* Sources */,
 				EC65F0BC1CA1E29A0065507A /* Frameworks */,
 				EC65F0BD1CA1E29A0065507A /* Resources */,
@@ -311,6 +312,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		07EB194A1CA6055300233679 /* Increase Build No. */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increase Build No.";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $CONFIGURATION == Release ]; then\necho \"Bumping build number...\"\nplist=${PROJECT_DIR}/${INFOPLIST_FILE}\n\n# increment the build number (ie 115 to 116)\nbuildnum=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${plist}\")\nif [[ \"${buildnum}\" == \"\" ]]; then\necho \"No build number in $plist\"\nexit 2\nfi\n\nbuildnum=$(expr $buildnum + 1)\n/usr/libexec/Plistbuddy -c \"Set CFBundleVersion $buildnum\" \"${plist}\"\necho \"Bumped build number to $buildnum\"\n\nelse\necho $CONFIGURATION \" build - Not bumping build number.\"\nfi";
+		};
 		86BFC356B15105D57290DEB2 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
