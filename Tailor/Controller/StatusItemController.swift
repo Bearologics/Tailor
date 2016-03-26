@@ -54,6 +54,8 @@ class StatusItemController: NSObject, NSMenuDelegate {
     
     func addCloseItems() {
         menu.addItem(NSMenuItem.separatorItem())
+        menu.addItem(MenuItem.disabledItem(NSApplication.formattedVersion()))
+        menu.addItem(NSMenuItem.separatorItem())
         menu.addItem(MenuItem.closeItem(self))
     }
     
