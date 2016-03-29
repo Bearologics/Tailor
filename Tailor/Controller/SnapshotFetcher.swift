@@ -12,12 +12,7 @@ import Fuzi
 
 class SnapshotFetcher: NSObject {
     let downloadUri = "https://swift.org/download"
-    
-    func uniq<S: SequenceType, E: Hashable where E==S.Generator.Element>(source: S) -> [E] {
-        var seen: [E:Bool] = [:]
-        return source.filter { seen.updateValue(true, forKey: $0) == nil }
-    }
-    
+
     func getReleases(done: (releases: [Release]?) -> ()) {
         Alamofire.request(.GET, downloadUri)
         .responseString { response in
@@ -36,7 +31,7 @@ class SnapshotFetcher: NSObject {
     
     func release(element: XMLElement) -> [Release] {
         var releases = [Release]()
-        let els = uniq(element.xpath(".//tr/td[@class='date']/time").flatMap { return $0.stringValue })
+        let els = Set(element.xpath(".//tr/td[@class='date']/time").flatMap { return $0.stringValue })
         els.forEach { el in
             let pth = element.xpath(".//tr/td[@class='download']/span[@class='release']/a")
             var hrefs = [String]()
