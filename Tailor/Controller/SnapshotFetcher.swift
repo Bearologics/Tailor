@@ -26,9 +26,7 @@ class SnapshotFetcher: NSObject {
             
             done(releases:
                 try? XMLDocument(string: html).xpath(.bodyQuery)
-                    .enumerate().map {
-                        return Release.generate($0, element: $1)
-                    }.flatMap { return $0 }
+                    .enumerate().flatMap { Release.generate($0, element: $1) }
             )
         }
     }
