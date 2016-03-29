@@ -23,16 +23,20 @@ class SnapshotFetcher: NSObject {
             let document = try? XMLDocument(string: html)
             let body = document?.xpath("//table[@id='latest-builds']/tbody")
             
-            let releases = body?.map { return self.release($0) }.flatMap { return $0 }
+            let releases = body?.enumerate().map { return self.release($0, element: $1) }.flatMap { return $0 }
 
             done(releases: releases)
         }
     }
     
-    func release(element: XMLElement) -> [Release] {
+    func release(index: Int, element: XMLElement) -> [Release] {
         var releases = [Release]()
-        let els = Set(element.xpath(".//tr/td[@class='date']/time").flatMap { return $0.stringValue })
+        let els = Set(element.xpath(".//tr/td[@class='date']/time").flatMap { return $0.stringValue }).map { return String($0) }
         els.forEach { el in
+            var title = el
+            if let h3 = element.xpath("//h3")[index]?.stringValue {
+                title = "\(h3): \(el)"
+            }
             let pth = element.xpath(".//tr/td[@class='download']/span[@class='release']/a")
             var hrefs = [String]()
             pth.forEach { href in
@@ -44,7 +48,7 @@ class SnapshotFetcher: NSObject {
             
             releases.append(
                 Release(
-                    title: el,
+                    title: title,
                     hrefs: hrefs
                 )
             )
