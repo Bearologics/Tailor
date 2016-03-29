@@ -10,6 +10,10 @@ import Cocoa
 import Alamofire
 import Fuzi
 
+private extension String {
+    static let bodyQuery = "//table[@id='latest-builds']/tbody"
+}
+
 class SnapshotFetcher: NSObject {
     let downloadUri = "https://swift.org/download"
 
@@ -20,39 +24,12 @@ class SnapshotFetcher: NSObject {
                 return done(releases: nil)
             }
             
-            let document = try? XMLDocument(string: html)
-            let body = document?.xpath("//table[@id='latest-builds']/tbody")
-            
-            let releases = body?.enumerate().map { return self.release($0, element: $1) }.flatMap { return $0 }
-
-            done(releases: releases)
-        }
-    }
-    
-    func release(index: Int, element: XMLElement) -> [Release] {
-        var releases = [Release]()
-        let els = Set(element.xpath(".//tr/td[@class='date']/time").flatMap { return $0.stringValue }).map { return String($0) }
-        els.forEach { el in
-            var title = el
-            if let h3 = element.xpath("//h3")[index]?.stringValue {
-                title = "\(h3): \(el)"
-            }
-            let pth = element.xpath(".//tr/td[@class='download']/span[@class='release']/a")
-            var hrefs = [String]()
-            pth.forEach { href in
-                guard let href = href["href"] else {
-                    return
-                }
-                hrefs.append(href.hasPrefix("http") ? href : "https://swift.org" + href)
-            }
-            
-            releases.append(
-                Release(
-                    title: title,
-                    hrefs: hrefs
-                )
+            done(releases:
+                try? XMLDocument(string: html).xpath(.bodyQuery)
+                    .enumerate().map {
+                        return Release.generate($0, element: $1)
+                    }.flatMap { return $0 }
             )
         }
-        return releases
     }
 }
