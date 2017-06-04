@@ -10,14 +10,14 @@ import Cocoa
 
 extension NSApplication {
     class func shortVersionString() -> String {
-        guard let infoDict = NSBundle.infoDictionary() else {
+        guard let infoDict = Bundle.main.infoDictionary else {
             return "Unknown"
         }
         return infoDict["CFBundleShortVersionString"] as! String
     }
     
     class func buildVersionString() -> String {
-        guard let infoDict = NSBundle.infoDictionary() else {
+        guard let infoDict = Bundle.main.infoDictionary else {
             return "?"
         }
         return infoDict["CFBundleVersion"] as! String

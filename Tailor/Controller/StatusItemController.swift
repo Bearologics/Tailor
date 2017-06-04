@@ -12,7 +12,7 @@ class StatusItemController: NSObject, NSMenuDelegate {
     
     @IBOutlet weak var menu: NSMenu!
     
-    let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSVariableStatusItemLength)
+    let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
     let fetcher = SnapshotFetcher()
     
     override func awakeFromNib() {
@@ -20,8 +20,8 @@ class StatusItemController: NSObject, NSMenuDelegate {
         statusItem.menu = menu
     }
     
-    @IBAction func quit(sender: NSMenuItem) {
-        NSApplication.sharedApplication().terminate(sender)
+    @IBAction func quit(_ sender: NSMenuItem) {
+        NSApplication.shared().terminate(sender)
     }
     
     func showError() {
@@ -31,7 +31,7 @@ class StatusItemController: NSObject, NSMenuDelegate {
         )
     }
     
-    func menuWillOpen(menu: NSMenu) {
+    func menuWillOpen(_ menu: NSMenu) {
         if menu != self.menu {
             return
         }
@@ -53,13 +53,13 @@ class StatusItemController: NSObject, NSMenuDelegate {
     }
     
     func addCloseItems() {
-        menu.addItem(NSMenuItem.separatorItem())
+        menu.addItem(NSMenuItem.separator())
         menu.addItem(MenuItem.disabledItem(NSApplication.formattedVersion()))
-        menu.addItem(NSMenuItem.separatorItem())
+        menu.addItem(NSMenuItem.separator())
         menu.addItem(MenuItem.closeItem(self))
     }
     
-    func menuItem(entry: Release) -> NSMenuItem {
+    func menuItem(_ entry: Release) -> NSMenuItem {
         let item = NSMenuItem(title: entry.title, action: nil, keyEquivalent: "")
         let submenu = NSMenu()
         entry.hrefs.forEach { href in
@@ -69,12 +69,12 @@ class StatusItemController: NSObject, NSMenuDelegate {
         return item
     }
     
-    func openUrl(sender: NSMenuItem) {
-        NSWorkspace.sharedWorkspace().openURL(NSURL(string: sender.title)!)
+    func openUrl(_ sender: NSMenuItem) {
+        NSWorkspace.shared().open(URL(string: sender.title)!)
     }
     
-    func closeApp(sender: NSMenuItem) {
-        NSApplication.sharedApplication().terminate(sender)
+    func closeApp(_ sender: NSMenuItem) {
+        NSApplication.shared().terminate(sender)
     }
     
 }

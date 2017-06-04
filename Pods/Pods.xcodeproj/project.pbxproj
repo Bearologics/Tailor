@@ -1,2049 +1,1137 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>02B20B5331FDFDD824EC8628637F71A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tailor-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>05A0F2D0FEAA412F23BB58F0A542A915</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C3654F7258E5AB234C9A82CC0B8D3A27</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0633BA2445EB7C638B39DA4127282A8B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Alamofire</string>
-			<key>target</key>
-			<string>79C040AFDDCE1BCBF6D8B5EB0B85887F</string>
-			<key>targetProxy</key>
-			<string>7F33421EB91FC5A01AB0C00428583054</string>
-		</dict>
-		<key>0709F59743D1B4C4C9D2EFEFE986F536</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6769B9F48EFFE6A4D9986195623AEE3F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>085788B02F9EECF218AA0C02B49B6D48</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Error.swift</string>
-			<key>path</key>
-			<string>Source/Error.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>095406039B4D371E48D08B38A2975AC8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>085788B02F9EECF218AA0C02B49B6D48</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0BB668E71D3661322009CA390A55930D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C7892C7A50C66728293DE76009CA49BC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Fuzi/Fuzi-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Fuzi/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/../Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Fuzi/Fuzi.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>Fuzi</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0C4BF141F28F040FF7DC15E5A4422084</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F2A01E41563117ED946F4E6E030D9AB9</string>
-				<string>908C2203C70297BC769178302D5C05F4</string>
-				<string>0F3861BC36DE61EBAB3C77FEB09B47D0</string>
-				<string>0709F59743D1B4C4C9D2EFEFE986F536</string>
-				<string>E3F80ABBD4934AD06082D2D9D4CDFD2D</string>
-				<string>B887363A5BBD789E86EA7D732167CA22</string>
-				<string>2E4BDE6F0C4C199E9BA9A746D322D608</string>
-				<string>05A0F2D0FEAA412F23BB58F0A542A915</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0E2E79D7B2D2FC5932069A818B74F301</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1CA6EBC2E57D96052268211209D6AA52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0F3861BC36DE61EBAB3C77FEB09B47D0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>431AB630D7691676F7D5DDDDC6E89893</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10B2EE21B5D67EE2C819831CCC43832B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>16102E4E35FAA0FC4161282FECE56469</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FFD1DCE40AA3938DA07C2288754DF56E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1624EDD1780035CFE5BCD461C6B0FA87</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Download.swift</string>
-			<key>path</key>
-			<string>Source/Download.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>16E3AF9835E0C5FCEB26693712D8C7C5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5FD494CA4C88C3EEC7AC750467C8D101</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1CA6EBC2E57D96052268211209D6AA52</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Cocoa.framework</string>
-			<key>path</key>
-			<string>Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>1DF6F89DD13E9E4AD6011A46718BEE3F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Alamofire.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1EA9CDF9819E92EEBBD3314298080FD7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Node.swift</string>
-			<key>path</key>
-			<string>Fuzi/Node.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>21AD3C9B778EC45EC557028C23DD2FAA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>ResponseSerialization.swift</string>
-			<key>path</key>
-			<string>Source/ResponseSerialization.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2234654EE7CA206A9F08F1B652EF6E30</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Tailor.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>244AFC37D4ECB0B58583D1B8EEC27E0F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Fuzi.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>265A59DE96256F9F2545532A1503DF42</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Notifications.swift</string>
-			<key>path</key>
-			<string>Source/Notifications.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2703EDACC6264E4375B2A797E9A05F4C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Document.swift</string>
-			<key>path</key>
-			<string>Fuzi/Document.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>28C17CEF104526ACA07B6EEE217EC43E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1CA6EBC2E57D96052268211209D6AA52</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>OS X</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D3405986FC586FA6C0A5E0B6BA7E64E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>531E75DCE41815956434FED30339A25F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>10B2EE21B5D67EE2C819831CCC43832B</string>
-				<string>7C07D96CC7C445E83983A6C6420BC692</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2E4BDE6F0C4C199E9BA9A746D322D608</key>
-		<dict>
-			<key>fileRef</key>
-			<string>92A8B9AA555F5A11BD3EA741FE7A175E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>34CCDCA848A701466256BC2927DA8856</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3D808E3623C63402AE6C4501E664DFA7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>39E9EE8210D861DFD82346C1F5EB7218</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>28C17CEF104526ACA07B6EEE217EC43E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3A8887DE5CAD4795FD16755840E172CD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Alamofire-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CFB42910790CF0BDBCCEBAACD6B9367</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E47D4A49B16CDC4CA35F9BDF95C5FE7E</string>
-				<string>E52F1B6E7072ED8D6FA687C0540B7F7C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3D808E3623C63402AE6C4501E664DFA7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>NetworkReachabilityManager.swift</string>
-			<key>path</key>
-			<string>Source/NetworkReachabilityManager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E19FB5CFCB8600C109A178F9D1E75A6</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>CFDF134C2BF3D1D4EBB8B99A2BDC6C41</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0C4BF141F28F040FF7DC15E5A4422084</string>
-				<string>16E3AF9835E0C5FCEB26693712D8C7C5</string>
-				<string>9AE3256816BBA441935227A7B8C9CCED</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Fuzi</string>
-			<key>productName</key>
-			<string>Fuzi</string>
-			<key>productReference</key>
-			<string>4490BD46B7E1CB17E23529CE48925280</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>3E23E079A09E21DD4BBF574CBD7770D9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Response.swift</string>
-			<key>path</key>
-			<string>Source/Response.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EA8F215C9C1432D74E5CCA4834AA8C0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>21AD3C9B778EC45EC557028C23DD2FAA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4081EA628AF0B73AC51FFB9D7AB3B89E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CDBE7C7ABCFED14C0B15834EDF20B062</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>431AB630D7691676F7D5DDDDC6E89893</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Error.swift</string>
-			<key>path</key>
-			<string>Fuzi/Error.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>447282DE8A20C672A359144CAE472E33</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tailor-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4490BD46B7E1CB17E23529CE48925280</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Fuzi.framework</string>
-			<key>path</key>
-			<string>Fuzi.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>48F32F1E71BAA917D295620EB814893E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>MultipartFormData.swift</string>
-			<key>path</key>
-			<string>Source/MultipartFormData.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>49A9C861DD89D48AA64B1345EF041625</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B81E7F2D7D2169A56FC814866C3C6FDD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Tailor/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/../Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Tailor/Pods-Tailor.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Tailor</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>52BB1B2E1E747CFD7889A5E739C2D7ED</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A9014D5CB15A14594D1FC611DE42E6B2</string>
-				<string>4490BD46B7E1CB17E23529CE48925280</string>
-				<string>A4F83891CF420704C3E046D3C195142A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52DC6D7BF336CBAC8624C46C4E0C2F8D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A9DC19B8AED011BF404459B665E11FAE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>531E75DCE41815956434FED30339A25F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Validation.swift</string>
-			<key>path</key>
-			<string>Source/Validation.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>566A1B260DBE15E90C2ED3C13F25F2BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Upload.swift</string>
-			<key>path</key>
-			<string>Source/Upload.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57C54700E9E41E9FADB9EE8C466445FC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CA112D7D74EDDEB067034768D46419A4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5BC19E6E0F199276003F0AF96838BCE5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>566A1B260DBE15E90C2ED3C13F25F2BD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5CB05FBCB32D21E194B5ECF680CB6AE0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1624EDD1780035CFE5BCD461C6B0FA87</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5EE342CAD6D759E3F5BD849DA214EDAF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Fuzi</string>
-			<key>target</key>
-			<string>3E19FB5CFCB8600C109A178F9D1E75A6</string>
-			<key>targetProxy</key>
-			<string>B9F0FB4A698CC3ABE2D72531E04A5CDA</string>
-		</dict>
-		<key>5FD494CA4C88C3EEC7AC750467C8D101</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1CA6EBC2E57D96052268211209D6AA52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>602B1A6932F4A6D7180FDFC6105948BE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62E8346F03C03E7F4D631361F325689E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E23E079A09E21DD4BBF574CBD7770D9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6698ABC20472BC4CF7AF7B81E0AF5549</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Element.swift</string>
-			<key>path</key>
-			<string>Fuzi/Element.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6769B9F48EFFE6A4D9986195623AEE3F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Fuzi-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>68326AA4FE229E970B17F7056F648EAF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Stream.swift</string>
-			<key>path</key>
-			<string>Source/Stream.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>699ECE38BEEE7074925FDA0B52A30F69</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Helpers.swift</string>
-			<key>path</key>
-			<string>Fuzi/Helpers.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>70093A9C7CFA7458A2CE03D6922757F2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Result.swift</string>
-			<key>path</key>
-			<string>Source/Result.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3CFB42910790CF0BDBCCEBAACD6B9367</string>
-			<key>buildPhases</key>
-			<array>
-				<string>95CC2C7E06DC188A05DAAEE9CAA555A3</string>
-				<string>86631BCDD6995CFD2A8A7716F3673282</string>
-				<string>EFDF3B631BBB965A372347705CA14854</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Alamofire</string>
-			<key>productName</key>
-			<string>Alamofire</string>
-			<key>productReference</key>
-			<string>A9014D5CB15A14594D1FC611DE42E6B2</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>7B48852C4D848FA2DA416A98F6425869</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4C2A4461DD8CD8BA47F0C2B228920E1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7C07D96CC7C445E83983A6C6420BC692</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>39E9EE8210D861DFD82346C1F5EB7218</string>
-				<string>DE27FA5634F8C3B398CFBEEC26CAA2DC</string>
-				<string>52BB1B2E1E747CFD7889A5E739C2D7ED</string>
-				<string>9C792BFD35EF22E8941AD6B9B37311CF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F33421EB91FC5A01AB0C00428583054</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>79C040AFDDCE1BCBF6D8B5EB0B85887F</string>
-			<key>remoteInfo</key>
-			<string>Alamofire</string>
-		</dict>
-		<key>857E43A92AEE2AFFE9B367EA8A962C5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAF5B26806B3E59326D907C7B50DC190</string>
-				<string>1624EDD1780035CFE5BCD461C6B0FA87</string>
-				<string>085788B02F9EECF218AA0C02B49B6D48</string>
-				<string>CDBE7C7ABCFED14C0B15834EDF20B062</string>
-				<string>48F32F1E71BAA917D295620EB814893E</string>
-				<string>3D808E3623C63402AE6C4501E664DFA7</string>
-				<string>265A59DE96256F9F2545532A1503DF42</string>
-				<string>9ED53FEFB97876315000748FF80A8069</string>
-				<string>EDCE225765DD368A6F9E00AA3C7095F2</string>
-				<string>3E23E079A09E21DD4BBF574CBD7770D9</string>
-				<string>21AD3C9B778EC45EC557028C23DD2FAA</string>
-				<string>70093A9C7CFA7458A2CE03D6922757F2</string>
-				<string>B4C2A4461DD8CD8BA47F0C2B228920E1</string>
-				<string>68326AA4FE229E970B17F7056F648EAF</string>
-				<string>FFD1DCE40AA3938DA07C2288754DF56E</string>
-				<string>566A1B260DBE15E90C2ED3C13F25F2BD</string>
-				<string>531E75DCE41815956434FED30339A25F</string>
-				<string>8582BCC319465A58B64B03BCD2300F11</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Alamofire</string>
-			<key>path</key>
-			<string>Alamofire</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8582BCC319465A58B64B03BCD2300F11</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D734366B384FD319B0B9A1208C9BF100</string>
-				<string>1DF6F89DD13E9E4AD6011A46718BEE3F</string>
-				<string>E09F6A5564BF2DEB2891237449181D01</string>
-				<string>B8882BBC47730178088AB26497DE10F2</string>
-				<string>3A8887DE5CAD4795FD16755840E172CD</string>
-				<string>A596F64EDD35D89C0B2A6607F6544780</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Alamofire</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86631BCDD6995CFD2A8A7716F3673282</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F3F3FD9096F43B73CBB52EF0E1CCF73E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>87621EA56F5E328EE290822ADBAE9C87</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2703EDACC6264E4375B2A797E9A05F4C</string>
-				<string>6698ABC20472BC4CF7AF7B81E0AF5549</string>
-				<string>431AB630D7691676F7D5DDDDC6E89893</string>
-				<string>699ECE38BEEE7074925FDA0B52A30F69</string>
-				<string>1EA9CDF9819E92EEBBD3314298080FD7</string>
-				<string>92A8B9AA555F5A11BD3EA741FE7A175E</string>
-				<string>C3654F7258E5AB234C9A82CC0B8D3A27</string>
-				<string>B9204B2C0711B23535DA17410852522E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Fuzi</string>
-			<key>path</key>
-			<string>Fuzi</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>89DE3F7A172E05064A64A2B9E67E632C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>49A9C861DD89D48AA64B1345EF041625</string>
-				<string>E64CDB4F787D15502754F4924AA071EA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8E9FCB0A8BDF2378F1AC1EB56169D071</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0E2E79D7B2D2FC5932069A818B74F301</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8EB11202167FCDDF1257AAAB1D1FB244</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAF5B26806B3E59326D907C7B50DC190</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>908C2203C70297BC769178302D5C05F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6698ABC20472BC4CF7AF7B81E0AF5549</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9189E0D7CEA69ADD734ECD742EB388E9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tailor-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92A8B9AA555F5A11BD3EA741FE7A175E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>NodeSet.swift</string>
-			<key>path</key>
-			<string>Fuzi/NodeSet.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9469DF81ECB494E84675969B5E13374C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3A8887DE5CAD4795FD16755840E172CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>95CC2C7E06DC188A05DAAEE9CAA555A3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ADF19C953CE2A7D0B72EC93A81FCCC26</string>
-				<string>8EB11202167FCDDF1257AAAB1D1FB244</string>
-				<string>5CB05FBCB32D21E194B5ECF680CB6AE0</string>
-				<string>095406039B4D371E48D08B38A2975AC8</string>
-				<string>4081EA628AF0B73AC51FFB9D7AB3B89E</string>
-				<string>C7B6DD7C0456C50289A2C381DFE9FA3F</string>
-				<string>34CCDCA848A701466256BC2927DA8856</string>
-				<string>BE41196F6A3903E59C3306FE3F8B43FE</string>
-				<string>C0DB70AB368765DC64BFB5FEA75E0696</string>
-				<string>EFE92E8D3813DD26E78E93EEAF6D7E7E</string>
-				<string>62E8346F03C03E7F4D631361F325689E</string>
-				<string>3EA8F215C9C1432D74E5CCA4834AA8C0</string>
-				<string>AA314156AC500125F4078EE968DB14C6</string>
-				<string>7B48852C4D848FA2DA416A98F6425869</string>
-				<string>AE4CF87C02C042DF13ED5B21C4FDC1E0</string>
-				<string>16102E4E35FAA0FC4161282FECE56469</string>
-				<string>5BC19E6E0F199276003F0AF96838BCE5</string>
-				<string>2D3405986FC586FA6C0A5E0B6BA7E64E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9AE3256816BBA441935227A7B8C9CCED</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>57C54700E9E41E9FADB9EE8C466445FC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9C792BFD35EF22E8941AD6B9B37311CF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CCE7EE3B4A6615CF9503DB1741B2B8BC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9ED53FEFB97876315000748FF80A8069</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>ParameterEncoding.swift</string>
-			<key>path</key>
-			<string>Source/ParameterEncoding.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A110E795F7199B5F21C9E8E817A19339</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A4F83891CF420704C3E046D3C195142A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Tailor.framework</string>
-			<key>path</key>
-			<string>Pods_Tailor.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A596F64EDD35D89C0B2A6607F6544780</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A9014D5CB15A14594D1FC611DE42E6B2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Alamofire.framework</string>
-			<key>path</key>
-			<string>Alamofire.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A9DC19B8AED011BF404459B665E11FAE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C1645CF97777682F056E77801513B781</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>AA314156AC500125F4078EE968DB14C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>70093A9C7CFA7458A2CE03D6922757F2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ADF19C953CE2A7D0B72EC93A81FCCC26</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E09F6A5564BF2DEB2891237449181D01</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE4CF87C02C042DF13ED5B21C4FDC1E0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>68326AA4FE229E970B17F7056F648EAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B4850FE1AB0B103F7FAF5253BB39D3AE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F210146F762A8587574ABCAC15859E76</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B4C2A4461DD8CD8BA47F0C2B228920E1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>ServerTrustPolicy.swift</string>
-			<key>path</key>
-			<string>Source/ServerTrustPolicy.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B81E7F2D7D2169A56FC814866C3C6FDD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tailor.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B887363A5BBD789E86EA7D732167CA22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1EA9CDF9819E92EEBBD3314298080FD7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B8882BBC47730178088AB26497DE10F2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Alamofire-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9204B2C0711B23535DA17410852522E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>244AFC37D4ECB0B58583D1B8EEC27E0F</string>
-				<string>C7892C7A50C66728293DE76009CA49BC</string>
-				<string>6769B9F48EFFE6A4D9986195623AEE3F</string>
-				<string>F9C8A7D73C02A58AB1FB3698602E6CBF</string>
-				<string>CA112D7D74EDDEB067034768D46419A4</string>
-				<string>A110E795F7199B5F21C9E8E817A19339</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Fuzi</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9F0FB4A698CC3ABE2D72531E04A5CDA</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3E19FB5CFCB8600C109A178F9D1E75A6</string>
-			<key>remoteInfo</key>
-			<string>Fuzi</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BE41196F6A3903E59C3306FE3F8B43FE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>265A59DE96256F9F2545532A1503DF42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C0DB70AB368765DC64BFB5FEA75E0696</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9ED53FEFB97876315000748FF80A8069</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C1645CF97777682F056E77801513B781</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tailor-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C3654F7258E5AB234C9A82CC0B8D3A27</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Queryable.swift</string>
-			<key>path</key>
-			<string>Fuzi/Queryable.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7607C4011F554836481713D92D25444</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tailor.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7892C7A50C66728293DE76009CA49BC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Fuzi.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7B6DD7C0456C50289A2C381DFE9FA3F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>48F32F1E71BAA917D295620EB814893E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CA112D7D74EDDEB067034768D46419A4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Fuzi-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CCE7EE3B4A6615CF9503DB1741B2B8BC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>602B1A6932F4A6D7180FDFC6105948BE</string>
-				<string>2234654EE7CA206A9F08F1B652EF6E30</string>
-				<string>D074BFD2F2687D3D10DA81B7D40F5DF0</string>
-				<string>E99425704AC9FC7D4837BFD8B8EDFE0E</string>
-				<string>9189E0D7CEA69ADD734ECD742EB388E9</string>
-				<string>447282DE8A20C672A359144CAE472E33</string>
-				<string>02B20B5331FDFDD824EC8628637F71A6</string>
-				<string>C1645CF97777682F056E77801513B781</string>
-				<string>B81E7F2D7D2169A56FC814866C3C6FDD</string>
-				<string>C7607C4011F554836481713D92D25444</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tailor</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tailor</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CDBE7C7ABCFED14C0B15834EDF20B062</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Manager.swift</string>
-			<key>path</key>
-			<string>Source/Manager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CFDF134C2BF3D1D4EBB8B99A2BDC6C41</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0BB668E71D3661322009CA390A55930D</string>
-				<string>E8643FEF19D35A48984E7ADEE546407D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D074BFD2F2687D3D10DA81B7D40F5DF0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tailor-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>52BB1B2E1E747CFD7889A5E739C2D7ED</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>79C040AFDDCE1BCBF6D8B5EB0B85887F</string>
-				<string>3E19FB5CFCB8600C109A178F9D1E75A6</string>
-				<string>F920A4492DA1C7F9A5786131D0B69EF7</string>
-			</array>
-		</dict>
-		<key>D734366B384FD319B0B9A1208C9BF100</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Alamofire.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE27FA5634F8C3B398CFBEEC26CAA2DC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>857E43A92AEE2AFFE9B367EA8A962C5D</string>
-				<string>87621EA56F5E328EE290822ADBAE9C87</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E09F6A5564BF2DEB2891237449181D01</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Alamofire-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E3F80ABBD4934AD06082D2D9D4CDFD2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>699ECE38BEEE7074925FDA0B52A30F69</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E47D4A49B16CDC4CA35F9BDF95C5FE7E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1DF6F89DD13E9E4AD6011A46718BEE3F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Alamofire/Alamofire-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Alamofire/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/../Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Alamofire/Alamofire.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>Alamofire</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E52F1B6E7072ED8D6FA687C0540B7F7C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1DF6F89DD13E9E4AD6011A46718BEE3F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Alamofire/Alamofire-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Alamofire/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/../Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Alamofire/Alamofire.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>Alamofire</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E64CDB4F787D15502754F4924AA071EA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C7607C4011F554836481713D92D25444</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Tailor/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/../Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Tailor/Pods-Tailor.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Tailor</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E8643FEF19D35A48984E7ADEE546407D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C7892C7A50C66728293DE76009CA49BC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Fuzi/Fuzi-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Fuzi/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/../Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Fuzi/Fuzi.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>Fuzi</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E99425704AC9FC7D4837BFD8B8EDFE0E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tailor-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDCE225765DD368A6F9E00AA3C7095F2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Request.swift</string>
-			<key>path</key>
-			<string>Source/Request.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFDF3B631BBB965A372347705CA14854</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9469DF81ECB494E84675969B5E13374C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EFE92E8D3813DD26E78E93EEAF6D7E7E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDCE225765DD368A6F9E00AA3C7095F2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F210146F762A8587574ABCAC15859E76</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9189E0D7CEA69ADD734ECD742EB388E9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F2A01E41563117ED946F4E6E030D9AB9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2703EDACC6264E4375B2A797E9A05F4C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F3F3FD9096F43B73CBB52EF0E1CCF73E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1CA6EBC2E57D96052268211209D6AA52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F920A4492DA1C7F9A5786131D0B69EF7</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>89DE3F7A172E05064A64A2B9E67E632C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B4850FE1AB0B103F7FAF5253BB39D3AE</string>
-				<string>8E9FCB0A8BDF2378F1AC1EB56169D071</string>
-				<string>52DC6D7BF336CBAC8624C46C4E0C2F8D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>0633BA2445EB7C638B39DA4127282A8B</string>
-				<string>5EE342CAD6D759E3F5BD849DA214EDAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tailor</string>
-			<key>productName</key>
-			<string>Pods-Tailor</string>
-			<key>productReference</key>
-			<string>A4F83891CF420704C3E046D3C195142A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>F9C8A7D73C02A58AB1FB3698602E6CBF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Fuzi-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAF5B26806B3E59326D907C7B50DC190</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Alamofire.swift</string>
-			<key>path</key>
-			<string>Source/Alamofire.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FFD1DCE40AA3938DA07C2288754DF56E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Timeline.swift</string>
-			<key>path</key>
-			<string>Source/Timeline.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07500E483D9FC21B9034885506303DF5 /* Pods-TailorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FA9B37A41436E22E9335214279C024 /* Pods-TailorTests-dummy.m */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583384BB4C2B8E823D1AA64D582B5E2C /* Timeline.swift */; };
+		138BC580FC0F8F5BDB836ED460FF026B /* Fuzi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 458B2944B887EC69FD07DC5236659CEA /* Fuzi-dummy.m */; };
+		15FCC0A6C478C5D12130490BF0CE0CB7 /* Pods-TailorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3EA6F78F54DA24C8E33EF233A0A666B /* Pods-TailorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A14B6E50AFF45BF21778CD4D0433C52A /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D7E1FF2D06C8CC8939E1F44FEB95FC1 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029B405E38D798E462DDF0C91BDA6382 /* Element.swift */; };
+		30E4D42881050215D2F3250010A35CFA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED35B892E367CEFAC2F6BD5E7E404547 /* TaskDelegate.swift */; };
+		372A47A478D7AAA8DB74CCC266CDA022 /* Pods-TailorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D422D0DC4EFA58BBD3FC04D609C5017B /* Pods-TailorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FBE2A51E76C83B5F8A213F0C3FBEA5 /* Request.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F872489F47085F5ED3BDF5A9F8481 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F6943F12DBFE7615D972FD1A2FEF5 /* ServerTrustPolicy.swift */; };
+		691E027835FB39F2817955269BFC5415 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		6A071AB5D4FA6C70F51207F1013923F8 /* Pods-TailorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDBB1FED5DCEF713DF2BC6AF1F34B6D /* Pods-TailorUITests-dummy.m */; };
+		705F32BC2BEB3A0833B35D9357E3B0A2 /* Pods-Tailor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48761117057137B65B058BAAB04FB6D2 /* Pods-Tailor-dummy.m */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB8D441D0789D24B8B9F50433D3CD1 /* SessionDelegate.swift */; };
+		7CBF2F4872E28B44B343F546B7EA81DE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A899D8E347C08624E922ACCDA4316 /* Error.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94EC5951E301CA7CE658D343DF0FC41 /* Result.swift */; };
+		9BF316EBE13D1FC10F6EFC4855CF08ED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		9DB91F7B392D045AB8451F515D20D649 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD2D8B6D6C81DCE38A61B7B24F620F6 /* AFError.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F3E1E0CC936791425E056901CFAF2 /* NetworkReachabilityManager.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 325EE13838CC98F3D1B7A498A84CC699 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC3F733BFF68075017F228995379C28 /* SessionManager.swift */; };
+		B075F4D3291FFBE83DD2F6A10EA04F42 /* NodeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CD090A6A529C430A746350A7060CA /* NodeSet.swift */; };
+		B3CED0BC841D587965F5C0CD71FD1310 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62876DD3C313309CB5763EC7EA11688 /* Document.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CE77D512AD203F7D46B3E3D99D4C7 /* MultipartFormData.swift */; };
+		BA61481DA130E951CE5D1DF1249B9FE2 /* Pods-Tailor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F330E7F3F7A9EA85E440C8152ED1D3F /* Pods-Tailor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E47ACD9D24FC0562F48D6288D9DA91 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71E64618BE7C882F2A9B052670E276 /* ParameterEncoding.swift */; };
+		CA66A58D374BE217245888B8B9F673FB /* Queryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4A21DCDECA41FD82F396B7B9D2835 /* Queryable.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C30AEB683E3482DF46A50C42887291 /* Response.swift */; };
+		CF33145792A45CD725F1949E6DD0D98F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		DA0CB8D9E116575CBED169DE5539E6F3 /* Fuzi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7455D3CDC0084C08E088E0F9ED1D10 /* Fuzi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC1635D552D6A1A86AD2344017D27022 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B22EA65F025612DB852B50833CA9A5 /* Helpers.swift */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D2E7982813834F85F6033C7E9E7F2E /* Notifications.swift */; };
+		F4BC91C44751CABE21A3BB91A423910A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B487D01D2E43DB0925041390853546 /* Node.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04732CB636EBA2CB368B590086F9E6F4 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2806F15BDA213B8AFF38FDAF1D3572F /* Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9136511768C5DAF1DA8FBD254FDA8B52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E765B8AB74C35B1FEF51FA254D5C734;
+			remoteInfo = Fuzi;
+		};
+		CF8364446729D66F9E955B3C395D6A8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D1970FEBEE7A64A1EB128C05481E1E /* Pods-Tailor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tailor.release.xcconfig"; sourceTree = "<group>"; };
+		029B405E38D798E462DDF0C91BDA6382 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/Element.swift; sourceTree = "<group>"; };
+		02AF6F020B5E5BD0B87F16DE668B0692 /* Pods-TailorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TailorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04732CB636EBA2CB368B590086F9E6F4 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		0BC3F733BFF68075017F228995379C28 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		102F3E1E0CC936791425E056901CFAF2 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		1A7CE77D512AD203F7D46B3E3D99D4C7 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		1AD2D8B6D6C81DCE38A61B7B24F620F6 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		1DDBB1FED5DCEF713DF2BC6AF1F34B6D /* Pods-TailorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TailorUITests-dummy.m"; sourceTree = "<group>"; };
+		1F330E7F3F7A9EA85E440C8152ED1D3F /* Pods-Tailor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tailor-umbrella.h"; sourceTree = "<group>"; };
+		20B22EA65F025612DB852B50833CA9A5 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/Helpers.swift; sourceTree = "<group>"; };
+		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		27F2D7DF7196F443F8F432BF02FC9B81 /* Pods-TailorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TailorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		325EE13838CC98F3D1B7A498A84CC699 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		37EAD5F205C6BF00524B8585AAA5E6A4 /* Fuzi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fuzi.xcconfig; sourceTree = "<group>"; };
+		3D1FCD1A9C0EC7C7981F0068646A9274 /* Pods-TailorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TailorUITests.modulemap"; sourceTree = "<group>"; };
+		418E8BD9A0C3EFB56981839BD1874BF6 /* Fuzi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fuzi-prefix.pch"; sourceTree = "<group>"; };
+		458B2944B887EC69FD07DC5236659CEA /* Fuzi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fuzi-dummy.m"; sourceTree = "<group>"; };
+		482ABE8E82F52232EDAFA79F5349C321 /* Pods-TailorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TailorTests.modulemap"; sourceTree = "<group>"; };
+		48761117057137B65B058BAAB04FB6D2 /* Pods-Tailor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tailor-dummy.m"; sourceTree = "<group>"; };
+		4A12DE1B48487D213292AC60EF363E04 /* Pods-Tailor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tailor-frameworks.sh"; sourceTree = "<group>"; };
+		4B7455D3CDC0084C08E088E0F9ED1D10 /* Fuzi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fuzi-umbrella.h"; sourceTree = "<group>"; };
+		4B8DA62A293633C752A85922F49313E0 /* Pods_Tailor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tailor.framework; path = "Pods-Tailor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		503A899D8E347C08624E922ACCDA4316 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		52EE9D19AE4996FDEA4D0C0AADAA2C6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		583384BB4C2B8E823D1AA64D582B5E2C /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		5DD12B4B5F13A862EC2482F872AC6C74 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		60E47ACD9D24FC0562F48D6288D9DA91 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		6385E462464F35BA42E3DA9C5AE1EF9A /* Pods-Tailor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Tailor.modulemap"; sourceTree = "<group>"; };
+		64FA9B37A41436E22E9335214279C024 /* Pods-TailorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TailorTests-dummy.m"; sourceTree = "<group>"; };
+		6DFF6288B59B600785CA7895B41B40B5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		743BBAF3D005090A143A03C8BAAE9495 /* Pods-TailorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TailorUITests-resources.sh"; sourceTree = "<group>"; };
+		7D523CDC5A797A0D1242A4F0BD18CD64 /* Pods-TailorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TailorTests-frameworks.sh"; sourceTree = "<group>"; };
+		7DC451DE2DCA3C2CCB08D65609A18BEC /* Pods-TailorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TailorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83C30AEB683E3482DF46A50C42887291 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		865D1C5B911DD37BB3F8BD1A0AF6CDD6 /* Pods_TailorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TailorUITests.framework; path = "Pods-TailorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		911A3ADA40214D2C340F7A8CAB9C3CA7 /* Pods-Tailor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tailor.debug.xcconfig"; sourceTree = "<group>"; };
+		9362893C3E0D47BF5E9628EC58919570 /* Fuzi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Fuzi.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94AAA90E9598081BD3C09D9A9D0C7B9C /* Pods-TailorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TailorTests.release.xcconfig"; sourceTree = "<group>"; };
+		962CD090A6A529C430A746350A7060CA /* NodeSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeSet.swift; path = Sources/NodeSet.swift; sourceTree = "<group>"; };
+		9BD4A21DCDECA41FD82F396B7B9D2835 /* Queryable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queryable.swift; path = Sources/Queryable.swift; sourceTree = "<group>"; };
+		9E71E64618BE7C882F2A9B052670E276 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		A14B6E50AFF45BF21778CD4D0433C52A /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		A2806F15BDA213B8AFF38FDAF1D3572F /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		A29F6943F12DBFE7615D972FD1A2FEF5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		A8E0BE985D507258ABB0F230DBDE9379 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB3D56367BF0C2B50D0AF4E74B3556B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E9088384107F3829E4B8FD56C33C71 /* Pods_TailorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TailorTests.framework; path = "Pods-TailorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F4AA33BAE6C48C88B4C691F7512BB8 /* Pods-TailorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TailorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C16F872489F47085F5ED3BDF5A9F8481 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		C1DAD395CD7BB8833E8629CE404F1653 /* Pods-TailorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TailorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3D2BBBA8569461C19C64178B12919F5 /* Pods-Tailor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tailor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C62876DD3C313309CB5763EC7EA11688 /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/Document.swift; sourceTree = "<group>"; };
+		CC25F0E16AEFD9AD676553FE64FD028B /* Pods-Tailor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tailor-resources.sh"; sourceTree = "<group>"; };
+		CFEB8D441D0789D24B8B9F50433D3CD1 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		D10E452CE124FE16BA5939A10CC44041 /* Pods-TailorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TailorTests-resources.sh"; sourceTree = "<group>"; };
+		D422D0DC4EFA58BBD3FC04D609C5017B /* Pods-TailorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TailorUITests-umbrella.h"; sourceTree = "<group>"; };
+		D43319F1385B7067B8555F58624F7B32 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		D447F3A77EDD7231E423B7D2E5B15D77 /* Pods-Tailor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tailor-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4B487D01D2E43DB0925041390853546 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Node.swift; sourceTree = "<group>"; };
+		E03F71E30AA4FF8CD0EE56FEA4596CC2 /* Fuzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fuzi.framework; path = Fuzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57FF13BC35165BA54AAC8A0C6DE71A8 /* Pods-TailorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TailorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6E0A145237F652FC20299AE2E910BDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94EC5951E301CA7CE658D343DF0FC41 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		ED35B892E367CEFAC2F6BD5E7E404547 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		EE1FAC4D20AB1E6AA21604CB3F4914AA /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		F1D2E7982813834F85F6033C7E9E7F2E /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		F2E711B65D72F53AE73059965B899EF5 /* Pods-TailorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TailorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2FBE2A51E76C83B5F8A213F0C3FBEA5 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		F3EA6F78F54DA24C8E33EF233A0A666B /* Pods-TailorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TailorTests-umbrella.h"; sourceTree = "<group>"; };
+		FB7032C3350822EE8BBFEEA2A0FD47FA /* Pods-TailorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TailorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBEA3F8C6AC79B765078BA206719B574 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21CB4ADF4FAC7B19123ECC454108C905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E4D42881050215D2F3250010A35CFA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475E646B7F9398390E503F560EA9374F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691E027835FB39F2817955269BFC5415 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B2EF656C9111A9F8425907B3E7FA04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF33145792A45CD725F1949E6DD0D98F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B14D21A682C80219D90189FAC9A7DDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB91F7B392D045AB8451F515D20D649 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E72DC71A5A81012409EF2DD2C11464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF316EBE13D1FC10F6EFC4855CF08ED /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C068A18C5413F804A2959126093416 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C068A18C5413F804A2959126093416 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C275AFB20BDC4C39C3CAFA807D13CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DFF6288B59B600785CA7895B41B40B5 /* Alamofire.framework */,
+				E03F71E30AA4FF8CD0EE56FEA4596CC2 /* Fuzi.framework */,
+				4B8DA62A293633C752A85922F49313E0 /* Pods_Tailor.framework */,
+				B1E9088384107F3829E4B8FD56C33C71 /* Pods_TailorTests.framework */,
+				865D1C5B911DD37BB3F8BD1A0AF6CDD6 /* Pods_TailorUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D9DE210889E5ADCE844B3A949E56BD6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4592679BCEE697F0020505CDAC89EE5 /* Pods-Tailor */,
+				CE507FE3E0C997A2F57FE7CD292B75A4 /* Pods-TailorTests */,
+				8487ECFB47E922E03A1DD16B8821B314 /* Pods-TailorUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				DE27FA5634F8C3B398CFBEEC26CAA2DC /* Pods */,
+				4C275AFB20BDC4C39C3CAFA807D13CEF /* Products */,
+				6D9DE210889E5ADCE844B3A949E56BD6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8487ECFB47E922E03A1DD16B8821B314 /* Pods-TailorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBEA3F8C6AC79B765078BA206719B574 /* Info.plist */,
+				3D1FCD1A9C0EC7C7981F0068646A9274 /* Pods-TailorUITests.modulemap */,
+				02AF6F020B5E5BD0B87F16DE668B0692 /* Pods-TailorUITests-acknowledgements.markdown */,
+				7DC451DE2DCA3C2CCB08D65609A18BEC /* Pods-TailorUITests-acknowledgements.plist */,
+				1DDBB1FED5DCEF713DF2BC6AF1F34B6D /* Pods-TailorUITests-dummy.m */,
+				B7F4AA33BAE6C48C88B4C691F7512BB8 /* Pods-TailorUITests-frameworks.sh */,
+				743BBAF3D005090A143A03C8BAAE9495 /* Pods-TailorUITests-resources.sh */,
+				D422D0DC4EFA58BBD3FC04D609C5017B /* Pods-TailorUITests-umbrella.h */,
+				27F2D7DF7196F443F8F432BF02FC9B81 /* Pods-TailorUITests.debug.xcconfig */,
+				FB7032C3350822EE8BBFEEA2A0FD47FA /* Pods-TailorUITests.release.xcconfig */,
+			);
+			name = "Pods-TailorUITests";
+			path = "Target Support Files/Pods-TailorUITests";
+			sourceTree = "<group>";
+		};
+		86F68CA0A43ECF22D003CE0E535D730E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9362893C3E0D47BF5E9628EC58919570 /* Fuzi.modulemap */,
+				37EAD5F205C6BF00524B8585AAA5E6A4 /* Fuzi.xcconfig */,
+				458B2944B887EC69FD07DC5236659CEA /* Fuzi-dummy.m */,
+				418E8BD9A0C3EFB56981839BD1874BF6 /* Fuzi-prefix.pch */,
+				4B7455D3CDC0084C08E088E0F9ED1D10 /* Fuzi-umbrella.h */,
+				E6E0A145237F652FC20299AE2E910BDE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Fuzi";
+			sourceTree = "<group>";
+		};
+		922380F6DCEDE16386ED6F877B2B019B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE1FAC4D20AB1E6AA21604CB3F4914AA /* Alamofire.modulemap */,
+				5DD12B4B5F13A862EC2482F872AC6C74 /* Alamofire.xcconfig */,
+				325EE13838CC98F3D1B7A498A84CC699 /* Alamofire-dummy.m */,
+				D43319F1385B7067B8555F58624F7B32 /* Alamofire-prefix.pch */,
+				A14B6E50AFF45BF21778CD4D0433C52A /* Alamofire-umbrella.h */,
+				A8E0BE985D507258ABB0F230DBDE9379 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		AB72A4603B0751D007845F2B6A8D2088 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				1AD2D8B6D6C81DCE38A61B7B24F620F6 /* AFError.swift */,
+				A2806F15BDA213B8AFF38FDAF1D3572F /* Alamofire.swift */,
+				C16F872489F47085F5ED3BDF5A9F8481 /* DispatchQueue+Alamofire.swift */,
+				1A7CE77D512AD203F7D46B3E3D99D4C7 /* MultipartFormData.swift */,
+				102F3E1E0CC936791425E056901CFAF2 /* NetworkReachabilityManager.swift */,
+				F1D2E7982813834F85F6033C7E9E7F2E /* Notifications.swift */,
+				9E71E64618BE7C882F2A9B052670E276 /* ParameterEncoding.swift */,
+				F2FBE2A51E76C83B5F8A213F0C3FBEA5 /* Request.swift */,
+				83C30AEB683E3482DF46A50C42887291 /* Response.swift */,
+				04732CB636EBA2CB368B590086F9E6F4 /* ResponseSerialization.swift */,
+				E94EC5951E301CA7CE658D343DF0FC41 /* Result.swift */,
+				A29F6943F12DBFE7615D972FD1A2FEF5 /* ServerTrustPolicy.swift */,
+				CFEB8D441D0789D24B8B9F50433D3CD1 /* SessionDelegate.swift */,
+				0BC3F733BFF68075017F228995379C28 /* SessionManager.swift */,
+				ED35B892E367CEFAC2F6BD5E7E404547 /* TaskDelegate.swift */,
+				583384BB4C2B8E823D1AA64D582B5E2C /* Timeline.swift */,
+				60E47ACD9D24FC0562F48D6288D9DA91 /* Validation.swift */,
+				922380F6DCEDE16386ED6F877B2B019B /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		CE507FE3E0C997A2F57FE7CD292B75A4 /* Pods-TailorTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB3D56367BF0C2B50D0AF4E74B3556B /* Info.plist */,
+				482ABE8E82F52232EDAFA79F5349C321 /* Pods-TailorTests.modulemap */,
+				E57FF13BC35165BA54AAC8A0C6DE71A8 /* Pods-TailorTests-acknowledgements.markdown */,
+				F2E711B65D72F53AE73059965B899EF5 /* Pods-TailorTests-acknowledgements.plist */,
+				64FA9B37A41436E22E9335214279C024 /* Pods-TailorTests-dummy.m */,
+				7D523CDC5A797A0D1242A4F0BD18CD64 /* Pods-TailorTests-frameworks.sh */,
+				D10E452CE124FE16BA5939A10CC44041 /* Pods-TailorTests-resources.sh */,
+				F3EA6F78F54DA24C8E33EF233A0A666B /* Pods-TailorTests-umbrella.h */,
+				C1DAD395CD7BB8833E8629CE404F1653 /* Pods-TailorTests.debug.xcconfig */,
+				94AAA90E9598081BD3C09D9A9D0C7B9C /* Pods-TailorTests.release.xcconfig */,
+			);
+			name = "Pods-TailorTests";
+			path = "Target Support Files/Pods-TailorTests";
+			sourceTree = "<group>";
+		};
+		DE27FA5634F8C3B398CFBEEC26CAA2DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB72A4603B0751D007845F2B6A8D2088 /* Alamofire */,
+				FD89EDA5D7AE8217C5956A18E408EAE5 /* Fuzi */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4592679BCEE697F0020505CDAC89EE5 /* Pods-Tailor */ = {
+			isa = PBXGroup;
+			children = (
+				52EE9D19AE4996FDEA4D0C0AADAA2C6F /* Info.plist */,
+				6385E462464F35BA42E3DA9C5AE1EF9A /* Pods-Tailor.modulemap */,
+				C3D2BBBA8569461C19C64178B12919F5 /* Pods-Tailor-acknowledgements.markdown */,
+				D447F3A77EDD7231E423B7D2E5B15D77 /* Pods-Tailor-acknowledgements.plist */,
+				48761117057137B65B058BAAB04FB6D2 /* Pods-Tailor-dummy.m */,
+				4A12DE1B48487D213292AC60EF363E04 /* Pods-Tailor-frameworks.sh */,
+				CC25F0E16AEFD9AD676553FE64FD028B /* Pods-Tailor-resources.sh */,
+				1F330E7F3F7A9EA85E440C8152ED1D3F /* Pods-Tailor-umbrella.h */,
+				911A3ADA40214D2C340F7A8CAB9C3CA7 /* Pods-Tailor.debug.xcconfig */,
+				00D1970FEBEE7A64A1EB128C05481E1E /* Pods-Tailor.release.xcconfig */,
+			);
+			name = "Pods-Tailor";
+			path = "Target Support Files/Pods-Tailor";
+			sourceTree = "<group>";
+		};
+		FD89EDA5D7AE8217C5956A18E408EAE5 /* Fuzi */ = {
+			isa = PBXGroup;
+			children = (
+				C62876DD3C313309CB5763EC7EA11688 /* Document.swift */,
+				029B405E38D798E462DDF0C91BDA6382 /* Element.swift */,
+				503A899D8E347C08624E922ACCDA4316 /* Error.swift */,
+				20B22EA65F025612DB852B50833CA9A5 /* Helpers.swift */,
+				D4B487D01D2E43DB0925041390853546 /* Node.swift */,
+				962CD090A6A529C430A746350A7060CA /* NodeSet.swift */,
+				9BD4A21DCDECA41FD82F396B7B9D2835 /* Queryable.swift */,
+				86F68CA0A43ECF22D003CE0E535D730E /* Support Files */,
+			);
+			name = Fuzi;
+			path = Fuzi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0ED8E38C064F19F63DA142B8125CB18D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0CB8D9E116575CBED169DE5539E6F3 /* Fuzi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3063230C4E437EBA838485A4B6E8D157 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA61481DA130E951CE5D1DF1249B9FE2 /* Pods-Tailor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EEADFDB4EEDB430ABE4C3D375485C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FCC0A6C478C5D12130490BF0CE0CB7 /* Pods-TailorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744CEF27AFAF9901746EC4B21C7C4EB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372A47A478D7AAA8DB74CCC266CDA022 /* Pods-TailorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0993A427FE4A84328BCAE2B4F30EDD43 /* Pods-Tailor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276982D9C104F13441C1A68654650C76 /* Build configuration list for PBXNativeTarget "Pods-Tailor" */;
+			buildPhases = (
+				07AEEE3CC8FE1EA5A62F611D89C951FD /* Sources */,
+				C6E72DC71A5A81012409EF2DD2C11464 /* Frameworks */,
+				3063230C4E437EBA838485A4B6E8D157 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5436C69AB45D40F80FFBBF95D650AD93 /* PBXTargetDependency */,
+				0427CF30FB49B0D107B4D5DD6BC7EA6A /* PBXTargetDependency */,
+			);
+			name = "Pods-Tailor";
+			productName = "Pods-Tailor";
+			productReference = 4B8DA62A293633C752A85922F49313E0 /* Pods_Tailor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E765B8AB74C35B1FEF51FA254D5C734 /* Fuzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA35E5538EA8BC6A54BE7BADB0BE387C /* Build configuration list for PBXNativeTarget "Fuzi" */;
+			buildPhases = (
+				65B484B3AE89337815F5EB55E02E0075 /* Sources */,
+				21CB4ADF4FAC7B19123ECC454108C905 /* Frameworks */,
+				0ED8E38C064F19F63DA142B8125CB18D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fuzi;
+			productName = Fuzi;
+			productReference = E03F71E30AA4FF8CD0EE56FEA4596CC2 /* Fuzi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B3BF8DD00A9DDF3BD928418C68A4B30 /* Pods-TailorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6529496483EBFE84CA0292815281763E /* Build configuration list for PBXNativeTarget "Pods-TailorUITests" */;
+			buildPhases = (
+				69BF8DCB1F6B91A335288B96D15A03C7 /* Sources */,
+				83B2EF656C9111A9F8425907B3E7FA04 /* Frameworks */,
+				744CEF27AFAF9901746EC4B21C7C4EB9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TailorUITests";
+			productName = "Pods-TailorUITests";
+			productReference = 865D1C5B911DD37BB3F8BD1A0AF6CDD6 /* Pods_TailorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				B14D21A682C80219D90189FAC9A7DDDF /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 6DFF6288B59B600785CA7895B41B40B5 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB8153BC167630EC2994555ACC0FC3E6 /* Pods-TailorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC15C96CE38E1D46803BC107FD1699D /* Build configuration list for PBXNativeTarget "Pods-TailorTests" */;
+			buildPhases = (
+				B80EDFC82FE09513934CD8ACE4018A63 /* Sources */,
+				475E646B7F9398390E503F560EA9374F /* Frameworks */,
+				38EEADFDB4EEDB430ABE4C3D375485C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TailorTests";
+			productName = "Pods-TailorTests";
+			productReference = B1E9088384107F3829E4B8FD56C33C71 /* Pods_TailorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4C275AFB20BDC4C39C3CAFA807D13CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				3E765B8AB74C35B1FEF51FA254D5C734 /* Fuzi */,
+				0993A427FE4A84328BCAE2B4F30EDD43 /* Pods-Tailor */,
+				FB8153BC167630EC2994555ACC0FC3E6 /* Pods-TailorTests */,
+				7B3BF8DD00A9DDF3BD928418C68A4B30 /* Pods-TailorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07AEEE3CC8FE1EA5A62F611D89C951FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705F32BC2BEB3A0833B35D9357E3B0A2 /* Pods-Tailor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B484B3AE89337815F5EB55E02E0075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CED0BC841D587965F5C0CD71FD1310 /* Document.swift in Sources */,
+				1D7E1FF2D06C8CC8939E1F44FEB95FC1 /* Element.swift in Sources */,
+				7CBF2F4872E28B44B343F546B7EA81DE /* Error.swift in Sources */,
+				138BC580FC0F8F5BDB836ED460FF026B /* Fuzi-dummy.m in Sources */,
+				EC1635D552D6A1A86AD2344017D27022 /* Helpers.swift in Sources */,
+				F4BC91C44751CABE21A3BB91A423910A /* Node.swift in Sources */,
+				B075F4D3291FFBE83DD2F6A10EA04F42 /* NodeSet.swift in Sources */,
+				CA66A58D374BE217245888B8B9F673FB /* Queryable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BF8DCB1F6B91A335288B96D15A03C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A071AB5D4FA6C70F51207F1013923F8 /* Pods-TailorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80EDFC82FE09513934CD8ACE4018A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07500E483D9FC21B9034885506303DF5 /* Pods-TailorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0427CF30FB49B0D107B4D5DD6BC7EA6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fuzi;
+			target = 3E765B8AB74C35B1FEF51FA254D5C734 /* Fuzi */;
+			targetProxy = 9136511768C5DAF1DA8FBD254FDA8B52 /* PBXContainerItemProxy */;
+		};
+		5436C69AB45D40F80FFBBF95D650AD93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = CF8364446729D66F9E955B3C395D6A8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		038E5BC4D39A6494D1A315FBEDE34415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EAD5F205C6BF00524B8585AAA5E6A4 /* Fuzi.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Fuzi/Fuzi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fuzi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Fuzi/Fuzi.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Fuzi;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16090A21DA0598F5BC6602A516D2C776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7032C3350822EE8BBFEEA2A0FD47FA /* Pods-TailorUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TailorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-TailorUITests/Pods-TailorUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TailorUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17D5EE17D17E42B0183D19E94A0A60B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911A3ADA40214D2C340F7A8CAB9C3CA7 /* Pods-Tailor.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tailor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tailor/Pods-Tailor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tailor;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		382A9EDB11C05394E67C4CC41CB7133D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DD12B4B5F13A862EC2482F872AC6C74 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B6CDF8715E2BB26DEF739A6BA098375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EAD5F205C6BF00524B8585AAA5E6A4 /* Fuzi.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Fuzi/Fuzi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fuzi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Fuzi/Fuzi.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Fuzi;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4768537DA1BF950E679ED85F03C11F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		563D01DD8514A43F6DF919282F104B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DAD395CD7BB8833E8629CE404F1653 /* Pods-TailorTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TailorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-TailorTests/Pods-TailorTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TailorTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E45A2FA4810184A974040DABDDF2351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94AAA90E9598081BD3C09D9A9D0C7B9C /* Pods-TailorTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TailorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-TailorTests/Pods-TailorTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TailorTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F42B097D2DF06B93BA6BFAB32C24925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F2D7DF7196F443F8F432BF02FC9B81 /* Pods-TailorUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TailorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-TailorUITests/Pods-TailorUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TailorUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FE1A248E694C43D1E8ABFF6DD6B8B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D1970FEBEE7A64A1EB128C05481E1E /* Pods-Tailor.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tailor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tailor/Pods-Tailor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tailor;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B586BB7AE092349C47DC4D1D2F47B60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FDADF025AA676EBB7970740CE4A57C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DD12B4B5F13A862EC2482F872AC6C74 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276982D9C104F13441C1A68654650C76 /* Build configuration list for PBXNativeTarget "Pods-Tailor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D5EE17D17E42B0183D19E94A0A60B2 /* Debug */,
+				7FE1A248E694C43D1E8ABFF6DD6B8B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B586BB7AE092349C47DC4D1D2F47B60B /* Debug */,
+				4768537DA1BF950E679ED85F03C11F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382A9EDB11C05394E67C4CC41CB7133D /* Debug */,
+				FDADF025AA676EBB7970740CE4A57C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DC15C96CE38E1D46803BC107FD1699D /* Build configuration list for PBXNativeTarget "Pods-TailorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563D01DD8514A43F6DF919282F104B51 /* Debug */,
+				5E45A2FA4810184A974040DABDDF2351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6529496483EBFE84CA0292815281763E /* Build configuration list for PBXNativeTarget "Pods-TailorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F42B097D2DF06B93BA6BFAB32C24925 /* Debug */,
+				16090A21DA0598F5BC6602A516D2C776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA35E5538EA8BC6A54BE7BADB0BE387C /* Build configuration list for PBXNativeTarget "Fuzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038E5BC4D39A6494D1A315FBEDE34415 /* Debug */,
+				3B6CDF8715E2BB26DEF739A6BA098375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -27,14 +27,11 @@ struct Release {
 }
 
 extension Release {
-    static func generate(index: Int, element: XMLElement) -> [Release] {
+    static func generate(_ index: Int, element: Fuzi.XMLElement) -> [Release] {
         var releases = [Release]()
         let els = Set(element.xpath(.releaseTimeQuery).flatMap { return $0.stringValue }).map { return String($0) }
-        els.forEach { el in
-            var title = el
-            if let h3 = element.xpath(.h3Query)[index]?.stringValue {
-                title = "\(h3): \(el)"
-            }
+        els.flatMap({$0}).forEach { el in
+            let title = "\(element.xpath(.h3Query)[index].stringValue): \(String(describing: el))"
             let pth = element.xpath(.releaseQuery)
             var hrefs = [String]()
             pth.forEach { href in

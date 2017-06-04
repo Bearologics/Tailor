@@ -11,7 +11,7 @@ import Cocoa
 struct StatusItem {
     static func icon() -> NSImage {
         let icon = NSImage(named: "statusIcon")!
-        icon.template = true
+        icon.isTemplate = true
         return icon
     }
 }

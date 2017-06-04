@@ -17,16 +17,16 @@ private extension String {
 class SnapshotFetcher: NSObject {
     let downloadUri = "https://swift.org/download"
 
-    func getReleases(done: (releases: [Release]?) -> ()) {
-        Alamofire.request(.GET, downloadUri)
+    func getReleases(_ done: @escaping (_ releases: [Release]?) -> ()) {
+        Alamofire.request(downloadUri)
         .responseString { response in
             guard let html = response.result.value else {
-                return done(releases: nil)
+                return done(nil)
             }
             
-            done(releases:
+            done(
                 try? XMLDocument(string: html).xpath(.bodyQuery)
-                    .enumerate().flatMap { Release.generate($0, element: $1) }
+                    .enumerated().flatMap { Release.generate($0, element: $1) }
             )
         }
     }

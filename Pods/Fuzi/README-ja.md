@@ -1,5 +1,6 @@
 # Fuzi (斧子)
 
+[![Build Status](https://api.travis-ci.org/cezheng/Fuzi.svg)](https://travis-ci.org/cezheng/Fuzi)
 [![Cocoapods Compatible](https://img.shields.io/cocoapods/v/Fuzi.svg)](https://cocoapods.org/pods/Fuzi)
 [![License](https://img.shields.io/cocoapods/l/Fuzi.svg?style=flat&color=gray)](http://opensource.org/licenses/MIT)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -17,8 +18,12 @@ Fuzi は Mattt Thompson氏の [Ono](https://github.com/mattt/Ono)(斧) に参照
 ## クイックルック
 ```swift
 let xml = "..."
+// or
+// let xmlData = <some NSData or Data>
 do {
   let document = try XMLDocument(string: xml)
+  // or
+  // let document = try XMLDocument(data: xmlData)
   
   if let root = document.root {
     // Accessing all child nodes of root element
@@ -69,8 +74,9 @@ do {
 ## 環境
 
 - iOS 8.0+ / Mac OS X 10.9+
-- Xcode 7.0+
+- Xcode 8.0+
 
+> Swift 2.3は[0.4.0](../../releases/tag/0.4.0)をご利用ください。
 
 ## インストール
 ### CocoaPodsで
@@ -81,7 +87,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'MyApp' do
-	pod 'Fuzi', '~> 0.3.0'
+	pod 'Fuzi', '~> 1.0.0'
 end
 ```
 
@@ -103,7 +109,7 @@ $ pod install
 プロダクトのディレクトリに`Cartfile` か `Cartfile.private`のファイルを作成し、下記の行を追加してください:
 
 ```
-github "cezheng/Fuzi" ~> 0.3.0
+github "cezheng/Fuzi" ~> 1.0.0
 ```
 そして、下記のコマンドを実行してください:
 
@@ -132,8 +138,8 @@ do {
     document.definePrefix("atom", defaultNamespace: "http://www.w3.org/2005/Atom")
     
     // get first child element with given tag in namespace(optional)
-    print(root.firstChild(tag: "title", inNamespace: "atom")
-    
+    print(root.firstChild(tag: "title", inNamespace: "atom"))
+
     // iterate through all children
     for element in root.children {
       print("\(index) \(element.tag): \(element.attributes)")
@@ -142,9 +148,9 @@ do {
   // you can also use CSS selector against XMLDocument when you feels it makes sense
 } catch let error as XMLError {
   switch error {
-  case .NoError: print("wth this should not appear")
-  case .ParserFailure, .InvalidData: print(error)
-  case .LibXMLError(let code, let message):
+  case .noError: print("wth this should not appear")
+  case .parserFailure, .invalidData: print(error)
+  case .libXMLError(let code, let message):
     print("libxml error code: \(code), message: \(message)")
   }
 }
@@ -161,12 +167,12 @@ do {
   let doc = try HTMLDocument(string: html, encoding: NSUTF8StringEncoding)
   
   // CSS queries
-  if let elementById = doc.css("#id") {
+  if let elementById = doc.firstChild(css: "#id") {
     print(elementById.stringValue)
   }
   for link in doc.css("a, link") {
       print(link.rawXML)
-      print(link["href"]
+      print(link["href"])
   }
   
   // XPath queries
@@ -174,7 +180,7 @@ do {
     print(firstAnchor["href"])
   }
   for script in doc.xpath("//head/script") {
-    print(script["src"]
+    print(script["src"])
   }
   
   // Evaluate XPath functions
@@ -224,7 +230,7 @@ document.root?.childNodes(ofTypes: [.Element, .Text, .Comment])
 
 [Onoサンプル](https://github.com/mattt/Ono/blob/master/Example/main.m)
 
-[Fuziサンプル](https://github.com/cezheng/Fuzi/blob/master/FuziDemo/FuziDemo/main.swift)
+[Fuziサンプル](FuziDemo/FuziDemo/main.swift)
 
 ###子要素を取得
 **Ono**
@@ -321,4 +327,4 @@ if let result = doc.eval(xpath: xpath) {
 ```
 ## ライセンス
 
-`Fuzi` のオープンソースライセンスは MIT です。 詳しくはこちら [LICENSE](https://github.com/cezheng/Fuzi/blob/master/LICENSE) 。
+`Fuzi` のオープンソースライセンスは MIT です。 詳しくはこちら [LICENSE](LICENSE) 。

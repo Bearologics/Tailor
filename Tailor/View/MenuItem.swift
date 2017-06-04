@@ -17,31 +17,31 @@ struct MenuItem {
         return disabledItem("Loading…")
     }
     
-    static func disabledItem(title: String) -> NSMenuItem {
+    static func disabledItem(_ title: String) -> NSMenuItem {
         return item(nil, title: title, enabled: false)
         
     }
     
-    static func enabledItem(title: String) -> NSMenuItem {
+    static func enabledItem(_ title: String) -> NSMenuItem {
         return item(nil, title: title, enabled: true)
     }
     
-    static func openUrlItem(target: StatusItemController, title: String) -> NSMenuItem {
+    static func openUrlItem(_ target: StatusItemController, title: String) -> NSMenuItem {
         return item(target, title: title, enabled: true)
     }
     
-    static func item(target: StatusItemController?, title: String, enabled: Bool) -> NSMenuItem {
+    static func item(_ target: StatusItemController?, title: String, enabled: Bool) -> NSMenuItem {
         let item = NSMenuItem()
         if let t = target {
             item.target = target
             item.action = #selector(t.openUrl(_:))
         }
         item.title = title
-        item.enabled = enabled
+        item.isEnabled = enabled
         return item
     }
     
-    static func closeItem(target: StatusItemController) -> NSMenuItem {
+    static func closeItem(_ target: StatusItemController) -> NSMenuItem {
         let item = NSMenuItem(title: "Quit", action: #selector(target.closeApp(_:)), keyEquivalent: "")
         item.target = target
         return item

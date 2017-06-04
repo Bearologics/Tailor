@@ -4,8 +4,8 @@
 use_frameworks!
 
 target 'Tailor' do
-  pod 'Alamofire', '~> 3.2.1'
-  pod 'Fuzi', '~> 0.3.0'
+  pod 'Alamofire'
+  pod 'Fuzi'
 end
 
 target 'TailorTests' do
