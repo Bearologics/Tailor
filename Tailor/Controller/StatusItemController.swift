@@ -12,7 +12,7 @@ class StatusItemController: NSObject, NSMenuDelegate {
     
     @IBOutlet weak var menu: NSMenu!
     
-    let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
+    let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     let fetcher = SnapshotFetcher()
     
     override func awakeFromNib() {
@@ -21,7 +21,7 @@ class StatusItemController: NSObject, NSMenuDelegate {
     }
     
     @IBAction func quit(_ sender: NSMenuItem) {
-        NSApplication.shared().terminate(sender)
+        NSApplication.shared.terminate(sender)
     }
     
     func showError() {
@@ -60,21 +60,21 @@ class StatusItemController: NSObject, NSMenuDelegate {
     }
     
     func menuItem(_ entry: Release) -> NSMenuItem {
-        let item = NSMenuItem(title: entry.title, action: nil, keyEquivalent: "")
+        let item = NSMenuItem(title: entry.version.build, action: nil, keyEquivalent: "")
         let submenu = NSMenu()
-        entry.hrefs.forEach { href in
-            submenu.addItem(MenuItem.openUrlItem(self, title: href))
-        }
+//        entry.hrefs.forEach { href in
+//            submenu.addItem(MenuItem.openUrlItem(self, title: href))
+//        }
         item.submenu = submenu
         return item
     }
     
-    func openUrl(_ sender: NSMenuItem) {
-        NSWorkspace.shared().open(URL(string: sender.title)!)
+    @objc func openUrl(_ sender: NSMenuItem) {
+        NSWorkspace.shared.open(URL(string: sender.title)!)
     }
-    
+    @objc  
     func closeApp(_ sender: NSMenuItem) {
-        NSApplication.shared().terminate(sender)
+        NSApplication.shared.terminate(sender)
     }
     
 }

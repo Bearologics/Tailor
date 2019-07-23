@@ -7,27 +7,18 @@
 //
 
 import Cocoa
-import Alamofire
-import Fuzi
-
-private extension String {
-    static let bodyQuery = "//table[@id='latest-builds']/tbody"
-}
 
 class SnapshotFetcher: NSObject {
-    let downloadUri = "https://swift.org/download"
+    let downloadUri = URL(string: "https://xcodereleases.com/data.json")!
 
     func getReleases(_ done: @escaping (_ releases: [Release]?) -> ()) {
-        Alamofire.request(downloadUri)
-        .responseString { response in
-            guard let html = response.result.value else {
-                return done(nil)
+        let request = URLRequest(url: downloadUri)
+        URLSession.shared.dataTask(with: request) { (data, response, error) in
+            guard let data = data else { return }
+            guard let releases = try? JSONDecoder().decode([Release].self, from: data) else {
+                return
             }
-            
-            done(
-                try? XMLDocument(string: html).xpath(.bodyQuery)
-                    .enumerated().flatMap { Release.generate($0, element: $1) }
-            )
-        }
+            done(releases)
+        }.resume()
     }
 }

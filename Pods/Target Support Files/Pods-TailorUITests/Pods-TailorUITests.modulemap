@@ -1,6 +1,0 @@
-framework module Pods_TailorUITests {
-  umbrella header "Pods-TailorUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
