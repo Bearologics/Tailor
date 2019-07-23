@@ -8,7 +8,9 @@
 
 import Cocoa
 
-struct MenuItem {
+class MenuItem: NSMenuItem {
+    var url: URL?
+    
     static func genericErrorItem() -> NSMenuItem {
         return disabledItem("An error occured.")
     }
@@ -18,31 +20,38 @@ struct MenuItem {
     }
     
     static func disabledItem(_ title: String) -> NSMenuItem {
-        return item(nil, title: title, enabled: false)
+        return item(nil, title: title, url: nil, enabled: false)
         
     }
     
-    static func enabledItem(_ title: String) -> NSMenuItem {
-        return item(nil, title: title, enabled: true)
+    static func enabledItem(_ title: String, url: URL?) -> NSMenuItem {
+        return item(nil, title: title, url: url, enabled: true)
     }
     
-    static func openUrlItem(_ target: StatusItemController, title: String) -> NSMenuItem {
-        return item(target, title: title, enabled: true)
+    static func openUrlItem(_ target: StatusItemController, title: String, url: URL?) -> NSMenuItem {
+        return item(target, title: title, url: url, enabled: true)
     }
     
-    static func item(_ target: StatusItemController?, title: String, enabled: Bool) -> NSMenuItem {
-        let item = NSMenuItem()
+    static func item(_ target: StatusItemController?, title: String, url: URL?, enabled: Bool) -> NSMenuItem {
+        let item = MenuItem()
         if let t = target {
             item.target = target
             item.action = #selector(t.openUrl(_:))
         }
         item.title = title
+        item.url = url
         item.isEnabled = enabled
         return item
     }
     
+    static func refreshItem(_ target: StatusItemController) -> NSMenuItem {
+        let item = MenuItem(title: "Refresh", action: #selector(target.refresh(_:)), keyEquivalent: "")
+        item.target = target
+        return item
+    }
+    
     static func closeItem(_ target: StatusItemController) -> NSMenuItem {
-        let item = NSMenuItem(title: "Quit", action: #selector(target.closeApp(_:)), keyEquivalent: "")
+        let item = MenuItem(title: "Quit", action: #selector(target.closeApp(_:)), keyEquivalent: "")
         item.target = target
         return item
     }

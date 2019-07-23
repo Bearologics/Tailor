@@ -11,8 +11,13 @@
 		072038FA1CA28A850039D141 /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038F41CA28A850039D141 /* StatusItemController.swift */; };
 		072038FB1CA28A850039D141 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038F71CA28A850039D141 /* MenuItem.swift */; };
 		072038FC1CA28A850039D141 /* StatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038F81CA28A850039D141 /* StatusItem.swift */; };
-		072039001CA2929F0039D141 /* Release.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038FF1CA2929F0039D141 /* Release.swift */; };
-		074BB68E22E78F6D00A9CE93 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BB68D22E78F6D00A9CE93 /* Version.swift */; };
+		074BB6A622E7924E00A9CE93 /* SDKs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BB69F22E7924E00A9CE93 /* SDKs.swift */; };
+		074BB6A722E7924E00A9CE93 /* Xcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BB6A022E7924E00A9CE93 /* Xcode.swift */; };
+		074BB6A822E7924E00A9CE93 /* Compilers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BB6A122E7924E00A9CE93 /* Compilers.swift */; };
+		074BB6A922E7924E00A9CE93 /* YMD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BB6A222E7924E00A9CE93 /* YMD.swift */; };
+		074BB6AA22E7924E00A9CE93 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BB6A322E7924E00A9CE93 /* Link.swift */; };
+		074BB6AB22E7924E00A9CE93 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BB6A422E7924E00A9CE93 /* Version.swift */; };
+		074BB6AC22E7924E00A9CE93 /* Release.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074BB6A522E7924E00A9CE93 /* Release.swift */; };
 		078E79101CA60EDD0098380D /* NSApplication+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E790F1CA60EDD0098380D /* NSApplication+Version.swift */; };
 		EC65F0C31CA1E29A0065507A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC65F0C21CA1E29A0065507A /* AppDelegate.swift */; };
 		EC65F0C71CA1E29A0065507A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC65F0C61CA1E29A0065507A /* Assets.xcassets */; };
@@ -56,8 +61,13 @@
 		072038F41CA28A850039D141 /* StatusItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
 		072038F71CA28A850039D141 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		072038F81CA28A850039D141 /* StatusItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItem.swift; sourceTree = "<group>"; };
-		072038FF1CA2929F0039D141 /* Release.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Release.swift; sourceTree = "<group>"; };
-		074BB68D22E78F6D00A9CE93 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		074BB69F22E7924E00A9CE93 /* SDKs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKs.swift; sourceTree = "<group>"; };
+		074BB6A022E7924E00A9CE93 /* Xcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Xcode.swift; sourceTree = "<group>"; };
+		074BB6A122E7924E00A9CE93 /* Compilers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compilers.swift; sourceTree = "<group>"; };
+		074BB6A222E7924E00A9CE93 /* YMD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMD.swift; sourceTree = "<group>"; };
+		074BB6A322E7924E00A9CE93 /* Link.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		074BB6A422E7924E00A9CE93 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		074BB6A522E7924E00A9CE93 /* Release.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Release.swift; sourceTree = "<group>"; };
 		0762C3EF1EE3AACD00A9DB5D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 		0762C3F11EE3AAD700A9DB5D /* Fuzi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fuzi.framework; sourceTree = "<group>"; };
 		078E790F1CA60EDD0098380D /* NSApplication+Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSApplication+Version.swift"; sourceTree = "<group>"; };
@@ -108,15 +118,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		072038F51CA28A850039D141 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				072038FF1CA2929F0039D141 /* Release.swift */,
-				074BB68D22E78F6D00A9CE93 /* Version.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		072038F61CA28A850039D141 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +125,21 @@
 				072038F81CA28A850039D141 /* StatusItem.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		074BB69E22E7924E00A9CE93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				074BB69F22E7924E00A9CE93 /* SDKs.swift */,
+				074BB6A022E7924E00A9CE93 /* Xcode.swift */,
+				074BB6A122E7924E00A9CE93 /* Compilers.swift */,
+				074BB6A222E7924E00A9CE93 /* YMD.swift */,
+				074BB6A322E7924E00A9CE93 /* Link.swift */,
+				074BB6A422E7924E00A9CE93 /* Version.swift */,
+				074BB6A522E7924E00A9CE93 /* Release.swift */,
+			);
+			name = Model;
+			path = "../../../Downloads/data-master/xcodereleases/Model";
 			sourceTree = "<group>";
 		};
 		078E790E1CA60EC90098380D /* Extension */ = {
@@ -168,9 +184,9 @@
 			isa = PBXGroup;
 			children = (
 				078E790E1CA60EC90098380D /* Extension */,
-				072038F21CA28A850039D141 /* Controller */,
-				072038F51CA28A850039D141 /* Model */,
+				074BB69E22E7924E00A9CE93 /* Model */,
 				072038F61CA28A850039D141 /* View */,
+				072038F21CA28A850039D141 /* Controller */,
 				EC65F0C21CA1E29A0065507A /* AppDelegate.swift */,
 				EC65F0C61CA1E29A0065507A /* Assets.xcassets */,
 				EC65F0CB1CA1E29A0065507A /* Info.plist */,
@@ -267,7 +283,9 @@
 				TargetAttributes = {
 					EC65F0BE1CA1E29A0065507A = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 857XYUU5FE;
 						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
 					};
 					EC65F0CF1CA1E29B0065507A = {
 						CreatedOnToolsVersion = 7.3;
@@ -350,14 +368,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074BB6A622E7924E00A9CE93 /* SDKs.swift in Sources */,
+				074BB6A722E7924E00A9CE93 /* Xcode.swift in Sources */,
+				074BB6A922E7924E00A9CE93 /* YMD.swift in Sources */,
+				074BB6AC22E7924E00A9CE93 /* Release.swift in Sources */,
 				072038FA1CA28A850039D141 /* StatusItemController.swift in Sources */,
+				074BB6AA22E7924E00A9CE93 /* Link.swift in Sources */,
+				074BB6A822E7924E00A9CE93 /* Compilers.swift in Sources */,
 				072038F91CA28A850039D141 /* SnapshotFetcher.swift in Sources */,
 				072038FB1CA28A850039D141 /* MenuItem.swift in Sources */,
 				072038FC1CA28A850039D141 /* StatusItem.swift in Sources */,
 				078E79101CA60EDD0098380D /* NSApplication+Version.swift in Sources */,
+				074BB6AB22E7924E00A9CE93 /* Version.swift in Sources */,
 				EC65F0C31CA1E29A0065507A /* AppDelegate.swift in Sources */,
-				074BB68E22E78F6D00A9CE93 /* Version.swift in Sources */,
-				072039001CA2929F0039D141 /* Release.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,11 +507,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 857XYUU5FE;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Tailor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.kida.Tailor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -497,11 +525,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 857XYUU5FE;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Tailor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.kida.Tailor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

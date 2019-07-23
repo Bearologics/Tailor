@@ -11,11 +11,11 @@ import Cocoa
 class SnapshotFetcher: NSObject {
     let downloadUri = URL(string: "https://xcodereleases.com/data.json")!
 
-    func getReleases(_ done: @escaping (_ releases: [Release]?) -> ()) {
+    func getReleases(_ done: @escaping (_ releases: [Xcode]?) -> ()) {
         let request = URLRequest(url: downloadUri)
         URLSession.shared.dataTask(with: request) { (data, response, error) in
             guard let data = data else { return }
-            guard let releases = try? JSONDecoder().decode([Release].self, from: data) else {
+            guard let releases = try? JSONDecoder().decode([Xcode].self, from: data) else {
                 return
             }
             done(releases)

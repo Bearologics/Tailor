@@ -32,22 +32,32 @@ class StatusItemController: NSObject, NSMenuDelegate {
     }
     
     func menuWillOpen(_ menu: NSMenu) {
+        guard menu.items.count == 0 else {
+            return
+        }
         if menu != self.menu {
             return
         }
+        refreshItems()
+    }
+    
+    private func refreshItems() {
         menu.removeAllItems()
         menu.addItem(
             MenuItem.loadingItem()
         )
         self.addCloseItems()
-        fetcher.getReleases { entries in
+        fetcher.getReleases { [weak self] entries in
+            guard let self = self else { return }
             guard let i = entries else {
                 return self.showError()
             }
-            menu.removeAllItems()
+            self.menu.removeAllItems()
+            self.menu.addItem(MenuItem.refreshItem(self))
+            self.menu.addItem(MenuItem.separator())
             i.map { release in
                 return self.menuItem(release)
-            }.forEach { menu.addItem($0) }
+            }.forEach { self.menu.addItem($0) }
             self.addCloseItems()
         }
     }
@@ -59,21 +69,29 @@ class StatusItemController: NSObject, NSMenuDelegate {
         menu.addItem(MenuItem.closeItem(self))
     }
     
-    func menuItem(_ entry: Release) -> NSMenuItem {
-        let item = NSMenuItem(title: entry.version.build, action: nil, keyEquivalent: "")
+    func menuItem(_ entry: Xcode) -> NSMenuItem {
+        let item = NSMenuItem(title: "\(entry.name) \(entry.version.number ?? "") (\(entry.version.build))", action: nil, keyEquivalent: "")
         let submenu = NSMenu()
-//        entry.hrefs.forEach { href in
-//            submenu.addItem(MenuItem.openUrlItem(self, title: href))
-//        }
+        if let notes = entry.links?.notes {
+            submenu.addItem(MenuItem.openUrlItem(self, title: "Release Notes", url: notes.url))
+        }
+        if let download = entry.links?.download {
+            submenu.addItem(MenuItem.openUrlItem(self, title: "Download", url: download.url))
+        }
         item.submenu = submenu
         return item
     }
     
-    @objc func openUrl(_ sender: NSMenuItem) {
-        NSWorkspace.shared.open(URL(string: sender.title)!)
+    @objc func openUrl(_ sender: MenuItem) {
+        guard let url = sender.url else { return }
+        NSWorkspace.shared.open(url)
     }
-    @objc  
-    func closeApp(_ sender: NSMenuItem) {
+    
+    @objc func refresh(_ sender: MenuItem) {
+        refreshItems()
+    }
+    
+    @objc func closeApp(_ sender: MenuItem) {
         NSApplication.shared.terminate(sender)
     }
     
