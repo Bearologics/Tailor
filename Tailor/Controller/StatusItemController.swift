@@ -24,11 +24,20 @@ class StatusItemController: NSObject, NSMenuDelegate {
         NSApplication.shared.terminate(sender)
     }
     
-    func showError() {
+    func showError(message: String?) {
         menu.removeAllItems()
-        menu.addItem(
-            MenuItem.genericErrorItem()
-        )
+        if let message = message {
+            menu.addItem(
+                MenuItem.errorItem(message: message)
+            )
+        } else {
+            menu.addItem(
+                MenuItem.genericErrorItem()
+            )
+        }
+        self.menu.addItem(MenuItem.refreshItem(self))
+        self.menu.addItem(MenuItem.separator())
+        self.addCloseItems()
     }
     
     func menuWillOpen(_ menu: NSMenu) {
@@ -47,15 +56,22 @@ class StatusItemController: NSObject, NSMenuDelegate {
             MenuItem.loadingItem()
         )
         self.addCloseItems()
-        fetcher.getReleases { [weak self] entries in
+        fetcher.getReleases { [weak self] entries, error in
             guard let self = self else { return }
-            guard let i = entries else {
-                return self.showError()
+            if let error = error {
+                switch error {
+                case .noData(let errorString):
+                    self.showError(message: errorString)
+                }
+                return
+            }
+            guard let entries = entries else {
+                return self.showError(message: nil)
             }
             self.menu.removeAllItems()
             self.menu.addItem(MenuItem.refreshItem(self))
             self.menu.addItem(MenuItem.separator())
-            i.map { release in
+            entries.map { release in
                 return self.menuItem(release)
             }.forEach { self.menu.addItem($0) }
             self.addCloseItems()

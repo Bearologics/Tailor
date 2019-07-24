@@ -11,28 +11,32 @@ import Cocoa
 class MenuItem: NSMenuItem {
     var url: URL?
     
-    static func genericErrorItem() -> NSMenuItem {
-        return disabledItem("An error occured.")
+    static func genericErrorItem() -> MenuItem {
+        return errorItem(message: "An error occured.")
     }
     
-    static func loadingItem() -> NSMenuItem {
+    static func errorItem(message: String) -> MenuItem {
+        return disabledItem(message)
+    }
+    
+    static func loadingItem() -> MenuItem {
         return disabledItem("Loading…")
     }
     
-    static func disabledItem(_ title: String) -> NSMenuItem {
+    static func disabledItem(_ title: String) -> MenuItem {
         return item(nil, title: title, url: nil, enabled: false)
         
     }
     
-    static func enabledItem(_ title: String, url: URL?) -> NSMenuItem {
+    static func enabledItem(_ title: String, url: URL?) -> MenuItem {
         return item(nil, title: title, url: url, enabled: true)
     }
     
-    static func openUrlItem(_ target: StatusItemController, title: String, url: URL?) -> NSMenuItem {
+    static func openUrlItem(_ target: StatusItemController, title: String, url: URL?) -> MenuItem {
         return item(target, title: title, url: url, enabled: true)
     }
     
-    static func item(_ target: StatusItemController?, title: String, url: URL?, enabled: Bool) -> NSMenuItem {
+    static func item(_ target: StatusItemController?, title: String, url: URL?, enabled: Bool) -> MenuItem {
         let item = MenuItem()
         if let t = target {
             item.target = target
@@ -44,13 +48,13 @@ class MenuItem: NSMenuItem {
         return item
     }
     
-    static func refreshItem(_ target: StatusItemController) -> NSMenuItem {
+    static func refreshItem(_ target: StatusItemController) -> MenuItem {
         let item = MenuItem(title: "Refresh", action: #selector(target.refresh(_:)), keyEquivalent: "")
         item.target = target
         return item
     }
     
-    static func closeItem(_ target: StatusItemController) -> NSMenuItem {
+    static func closeItem(_ target: StatusItemController) -> MenuItem {
         let item = MenuItem(title: "Quit", action: #selector(target.closeApp(_:)), keyEquivalent: "")
         item.target = target
         return item
