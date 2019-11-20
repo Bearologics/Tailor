@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import XCModel
 
 class StatusItemController: NSObject, NSMenuDelegate {
     
@@ -71,9 +72,13 @@ class StatusItemController: NSObject, NSMenuDelegate {
             self.menu.removeAllItems()
             self.menu.addItem(MenuItem.refreshItem(self))
             self.menu.addItem(MenuItem.separator())
-            entries.map { release in
-                return self.menuItem(release)
+            
+            Dictionary(grouping: entries, by: { $0.version.number ?? "Unknown" })
+                .sorted { $0.key.localizedStandardCompare($1.key) == .orderedDescending }
+                .map { xcodes in
+                self.xcodeVersionMenuGroupItem("Xcode \(xcodes.key)", xcodes: xcodes.value)
             }.forEach { self.menu.addItem($0) }
+
             self.addCloseItems()
         }
     }
@@ -85,7 +90,17 @@ class StatusItemController: NSObject, NSMenuDelegate {
         menu.addItem(MenuItem.closeItem(self))
     }
     
-    func menuItem(_ entry: Xcode) -> NSMenuItem {
+    private func xcodeVersionMenuGroupItem(_ version: String, xcodes: [Xcode]) -> NSMenuItem {
+        let item = NSMenuItem(title: version, action: nil, keyEquivalent: "")
+        let submenu = NSMenu()
+        xcodes.forEach { xcode in
+            submenu.addItem(xcodeVersionReleaseMenuItem(xcode))
+        }
+        item.submenu = submenu
+        return item
+    }
+    
+    private func xcodeVersionReleaseMenuItem(_ entry: Xcode) -> NSMenuItem {
         let item = NSMenuItem(title: "\(entry.name) \(entry.version.number ?? "") (\(entry.version.build))", action: nil, keyEquivalent: "")
         let submenu = NSMenu()
         if let notes = entry.links?.notes {

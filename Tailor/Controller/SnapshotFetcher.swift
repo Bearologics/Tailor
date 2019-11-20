@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import XCModel
 
 class SnapshotFetcher: NSObject {
     enum Error {
