@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07018F612393B6FC005C42CA /* Xcode+ReleaseSuffix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07018F602393B6FC005C42CA /* Xcode+ReleaseSuffix.swift */; };
 		072038F91CA28A850039D141 /* SnapshotFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038F31CA28A850039D141 /* SnapshotFetcher.swift */; };
 		072038FA1CA28A850039D141 /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038F41CA28A850039D141 /* StatusItemController.swift */; };
 		072038FB1CA28A850039D141 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072038F71CA28A850039D141 /* MenuItem.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07018F602393B6FC005C42CA /* Xcode+ReleaseSuffix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Xcode+ReleaseSuffix.swift"; sourceTree = "<group>"; };
 		072038F31CA28A850039D141 /* SnapshotFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotFetcher.swift; sourceTree = "<group>"; };
 		072038F41CA28A850039D141 /* StatusItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
 		072038F71CA28A850039D141 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				078E790F1CA60EDD0098380D /* NSApplication+Version.swift */,
+				07018F602393B6FC005C42CA /* Xcode+ReleaseSuffix.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			files = (
 				072038FA1CA28A850039D141 /* StatusItemController.swift in Sources */,
 				072038F91CA28A850039D141 /* SnapshotFetcher.swift in Sources */,
+				07018F612393B6FC005C42CA /* Xcode+ReleaseSuffix.swift in Sources */,
 				072038FB1CA28A850039D141 /* MenuItem.swift in Sources */,
 				072038FC1CA28A850039D141 /* StatusItem.swift in Sources */,
 				078E79101CA60EDD0098380D /* NSApplication+Version.swift in Sources */,
@@ -506,7 +510,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.kida.Tailor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -528,7 +532,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.kida.Tailor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

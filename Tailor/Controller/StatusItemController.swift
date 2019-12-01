@@ -101,7 +101,7 @@ class StatusItemController: NSObject, NSMenuDelegate {
     }
     
     private func xcodeVersionReleaseMenuItem(_ entry: Xcode) -> NSMenuItem {
-        let item = NSMenuItem(title: "\(entry.name) \(entry.version.number ?? "") (\(entry.version.build))", action: nil, keyEquivalent: "")
+        let item = NSMenuItem(title: "\(entry.name) \(entry.version.number ?? "") \(entry.getReleaseSuffix()) (\(entry.version.build))", action: nil, keyEquivalent: "")
         let submenu = NSMenu()
         if let notes = entry.links?.notes {
             submenu.addItem(MenuItem.openUrlItem(self, title: "Release Notes", url: notes.url))
@@ -112,7 +112,7 @@ class StatusItemController: NSObject, NSMenuDelegate {
         item.submenu = submenu
         return item
     }
-    
+
     @objc func openUrl(_ sender: MenuItem) {
         guard let url = sender.url else { return }
         NSWorkspace.shared.open(url)
