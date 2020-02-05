@@ -57,8 +57,6 @@
 		072038F41CA28A850039D141 /* StatusItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
 		072038F71CA28A850039D141 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		072038F81CA28A850039D141 /* StatusItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItem.swift; sourceTree = "<group>"; };
-		0762C3EF1EE3AACD00A9DB5D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
-		0762C3F11EE3AAD700A9DB5D /* Fuzi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fuzi.framework; sourceTree = "<group>"; };
 		078E790F1CA60EDD0098380D /* NSApplication+Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSApplication+Version.swift"; sourceTree = "<group>"; };
 		EC65F0BF1CA1E29A0065507A /* Tailor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tailor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC65F0C21CA1E29A0065507A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,15 +124,6 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		155F304A151A1E43E984FC97 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0762C3F11EE3AAD700A9DB5D /* Fuzi.framework */,
-				0762C3EF1EE3AACD00A9DB5D /* Alamofire.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		EC65F0B61CA1E29A0065507A = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +131,6 @@
 				EC65F0D31CA1E29B0065507A /* TailorTests */,
 				EC65F0DE1CA1E29B0065507A /* TailorUITests */,
 				EC65F0C01CA1E29A0065507A /* Products */,
-				155F304A151A1E43E984FC97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
